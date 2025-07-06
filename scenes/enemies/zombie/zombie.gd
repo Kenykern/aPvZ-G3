@@ -28,7 +28,7 @@ func _process(delta):
 		var currFrame = $an_zombie.get_frame()
 		$an_zombie.set_animation("walk_noarm")
 		$an_zombie.set_frame(currFrame)
-		var darm = arm.instantiate()
+		var darm = arm.instance()
 		add_child(darm)
 		darm.position = $arm_spawn.position
 		darm.pgp = global_position
@@ -40,7 +40,7 @@ func _process(delta):
 		$an_zombie.set_animation("walk_nohead")
 		$an_zombie.set_frame(currFrame)
 #		$head_phs.pop_off()
-		var dhead = head.instantiate()
+		var dhead = head.instance()
 		add_child(dhead)
 		dhead.position = $head_spawn.position
 		dhead.pgp = global_position
@@ -115,13 +115,13 @@ func _on_EatArea_area_entered(area):
 	pass # Replace with function body.
 
 func _on_EatArea_area_exited(area):
-	_loc_await(randi() % 2)
+	#_loc_await(randi() % 2)
 
 	pass # Replace with function body.
 
 
 func _on_EatTimer_timeout():
-		var pe = weakref(planteat)
+	var pe = weakref(planteat)
 	if pe.get_ref() and state != "dead":
 		pe.get_ref().get_parent().health -= 20
 		pe.get_ref().get_parent().damage()
@@ -131,8 +131,10 @@ func _on_EatTimer_timeout():
 		$EatTimer.start(1)
 	pass # Replace with function body.
 	
+	""""
 func _loc_await(time):
 	await get_tree().create_timer(time).timeout
 	$an_zombie.play()
 	eating = false
 		
+"""

@@ -1,4 +1,4 @@
-extends TextureProgressBar
+extends TextureProgress
 
 var charge_time = 5
 
@@ -11,9 +11,9 @@ func _process(delta):
 	if value != 0:
 		get_parent().disabled = true
 		get_parent().mouse_default_cursor_shape = Control.CURSOR_ARROW
-		$"../AnimatedSprite2D".stop()
+		$"../AnimatedSprite".stop()
 	else:
 		get_parent().disabled = false
 		get_parent().mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
-		if !$"../AnimatedSprite2D".is_playing():
-			$"../AnimatedSprite2D".play()
+		if !$"../AnimatedSprite".is_playing():
+			$"../AnimatedSprite".play()

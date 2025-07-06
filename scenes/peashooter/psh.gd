@@ -10,7 +10,7 @@ var shot = false
 var health = 100
 var lane
 var gr = "foes"
-@onready var foeCol = get_node("foeCollision")
+onready var foeCol = get_node("foeCollision")
 
 
 

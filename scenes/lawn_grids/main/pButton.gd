@@ -3,6 +3,7 @@ extends Button
 
 #later to be used by "main.tscn"
 export var seedpacket: String
+
 #where all the plant and properties are in a dictionary
 
 onready var set_packet = StatList.plants[seedpacket]

@@ -3,8 +3,9 @@ extends NinePatchRect
 var mousePos = Vector2()
 var showLabel = false
 
-@onready var set_packet = StatList.plants[$"../..".seedpacket]
-#@onready var set_packet = StatList.plants[get_parent().seedpacket]
+#onready var set_packet = StatList.plants
+#onready var set_packet = StatList.plants[$"../..".seedpacket]
+onready var set_packet = StatList.plants[get_parent().get_parent().seedpacket]
 
 func _ready():
 	$PlantName.set_text(set_packet["name"])
@@ -20,7 +21,7 @@ func _process(delta):
 	else:
 		modulate.a = 0
 		
-	global_position = Vector2(mousePos.x + 15, mousePos.y + 15);
+	rect_position = Vector2(mousePos.x + 15, mousePos.y + 15)
 	pass
 
 func _input(event):

@@ -1,6 +1,6 @@
-extends Sprite2D
+extends Sprite
 
-
+""""
 func _ready():
 	modulate.a = 0
 	
@@ -12,3 +12,4 @@ func _process(delta):
 		modulate.a = 0.4
 	else:
 		modulate.a = 0
+"""

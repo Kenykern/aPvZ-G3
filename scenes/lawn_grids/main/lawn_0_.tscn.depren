@@ -30,13 +30,11 @@ stretch_mode = 1
 position = Vector2( 158, 100 )
 scale = Vector2( 0.839999, 1 )
 
-[node name="YSort" type="YSort" parent="."]
-
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="(depecrated) lanephy" type="StaticBody2D" parent="."]
 
-[node name="seed_planter" parent="." instance=ExtResource( 6 )]
+[node name="seed_planter_" parent="." instance=ExtResource( 6 )]
 
 [node name="spawn1" type="Node2D" parent="."]
 position = Vector2( 1263, 209 )

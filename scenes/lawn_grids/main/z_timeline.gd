@@ -2,7 +2,7 @@ extends Node2D
 const spawn = preload("res://scenes/lawn_grids/spawn_controller.gd")
 const zombie = preload("res://scenes/enemies/zombie/zombie.tscn")
 var set = 0
-@onready var p = get_parent()
+onready var p = get_parent()
 func _ready():
 	$stTimer.start(10)
 	pass

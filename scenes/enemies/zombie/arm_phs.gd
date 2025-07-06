@@ -7,11 +7,15 @@ var pgp
 var globalp
 var upd = true
 var pdiff
+var rng = RandomNumberGenerator.new()
+
 func _ready():
 	randomize()
-	hspeed = randf_range(1, 2)
-	vspeed = randf_range(-3, -1)
-	rotspeed = randf_range(0.03, 0.05)
+	rng.randomize()
+	randomize()
+	hspeed = rng.randf_range(1, 4)
+	vspeed = rng.randf_range(-6, -2)
+	rotspeed = rng.randf_range(0.03, 0.05)
 	#set_as_top_level(true)
 	pass
 

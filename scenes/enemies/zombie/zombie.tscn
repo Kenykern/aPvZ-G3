@@ -694,6 +694,7 @@ animations = [ {
 extents = Vector2( 10.5, 36 )
 
 [node name="Zombie" type="Node2D" groups=["foe"]]
+scale = Vector2( 0.7, 0.7 )
 script = ExtResource( 663 )
 
 [node name="hitArea" type="Area2D" parent="."]
@@ -709,6 +710,7 @@ animation = "walk"
 frame = 1
 
 [node name="head_spawn" type="Node2D" parent="."]
+position = Vector2( -48, -222 )
 
 [node name="damage_flash" type="AnimationPlayer" parent="."]
 
@@ -717,6 +719,7 @@ wait_time = 3.0
 one_shot = true
 
 [node name="arm_spawn" type="Node2D" parent="."]
+position = Vector2( -19.417, -111.449 )
 
 [node name="EatTimer" type="Timer" parent="."]
 

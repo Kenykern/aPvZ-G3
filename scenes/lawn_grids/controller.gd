@@ -8,7 +8,7 @@ const peashooter = preload("res://scenes/peashooter/psh.tscn")
 const sunflower = preload("res://scenes/sunflower/sunflower.tscn")
 
 
-@onready var plantButton = $Control/AspectRatioContainer/HBoxContainer/Button
+onready var plantButton = $Control/AspectRatioContainer/HBoxContainer/Button
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -32,15 +32,15 @@ func _hl_instance_id():
 	
 	
 func _input(event):
-	if $lawn_grid.currHL != null:
-		if Input.is_mouse_button_pressed(1) and instance_from_id($lawn_grid.currHL).mouseArea == true and StatList.holding_plant == true and instance_from_id($lawn_grid.currHL).available == true and instance_from_id(StatList.seedpacket_id).button_pressed == true:
+	if $lawn_grid_1_.currHL != null:
+		if Input.is_mouse_button_pressed(1) and instance_from_id($lawn_grid_1_.currHL).mouseArea == true and StatList.holding_plant == true and instance_from_id($lawn_grid_1_.currHL).available == true and instance_from_id(StatList.seedpacket_id).button_pressed == true:
 				#var plant_path = StatList.plants[instance_from_id(StatList.seedpacket_id).seedpacket]["path"]
 				var plant = load(StatList.plants[instance_from_id(StatList.seedpacket_id).seedpacket]["path"])
 				#var plant = load(strp)
-				var ap = plant.instantiate()
-				var pposition =  instance_from_id($lawn_grid.currHL).get_node("plant_position").global_position
-				$Node2D.add_child(ap)
-				ap.lane = instance_from_id($lawn_grid.currHL).lane
+				var ap = plant.instance()
+				var pposition =  instance_from_id($lawn_grid_1_.currHL).get_node("plant_position").global_position
+				$Ysort.add_child(ap)
+				ap.lane = instance_from_id($lawn_grid_1_.currHL).lane
 				print(ap.lane)
 				ap.position = pposition
 				ap.global_scale = Vector2(0.7, 0.7)
@@ -66,6 +66,6 @@ func _input(event):
 						ap.gr = "lane5"
 						ap.lane = 5
 				StatList.holding_plant = false
-				instance_from_id($lawn_grid.currHL).available = false
+				instance_from_id($lawn_grid_1_.currHL).available = false
 				instance_from_id(StatList.seedpacket_id).seedPacket_reset()
 			

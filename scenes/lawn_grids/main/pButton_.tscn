@@ -15,6 +15,7 @@ toggle_mode = true
 text = "peashooter"
 flat = true
 script = ExtResource( 2 )
+seedpacket = "peashooter"
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = ExtResource( 7 )
