@@ -1,0 +1,63 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenes/lawn_grids/lawn_grid_1_.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/lawn_grids/controller.gd" type="Script" id=2]
+[ext_resource path="res://scenes/lawn_grids/spawn_controller.gd" type="Script" id=3]
+[ext_resource path="res://scenes/lawn_grids/main/z_timeline.gd" type="Script" id=4]
+[ext_resource path="res://PvZ2_Backyard01.png" type="Texture" id=5]
+
+[node name="lawn_0_" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="spawn_controller" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="z_timeline" type="Node2D" parent="spawn_controller"]
+script = ExtResource( 4 )
+
+[node name="stTimer" type="Timer" parent="spawn_controller/z_timeline"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -687.0
+margin_top = -256.0
+margin_right = 2312.0
+margin_bottom = 941.0
+texture = ExtResource( 5 )
+stretch_mode = 1
+
+[node name="lawn_grid_1_" parent="." instance=ExtResource( 1 )]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="(depecrated) lanephy" type="StaticBody2D" parent="."]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="spawn1" type="Node2D" parent="."]
+position = Vector2( 1263, 209 )
+
+[node name="spawn2" type="Node2D" parent="."]
+position = Vector2( 1266, 330 )
+
+[node name="spawn3" type="Node2D" parent="."]
+position = Vector2( 1274, 453 )
+
+[node name="spawn4" type="Node2D" parent="."]
+position = Vector2( 1269, 581 )
+
+[node name="spawn5" type="Node2D" parent="."]
+position = Vector2( 1265, 682 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 417, 352 )
+rotating = true
+current = true
+zoom = Vector2( 0.9, 0.9 )
+
+[connection signal="timeout" from="spawn_controller/z_timeline/stTimer" to="spawn_controller/z_timeline" method="_on_stTimer_timeout"]

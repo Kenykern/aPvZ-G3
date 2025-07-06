@@ -2,12 +2,13 @@
 extends Button
 
 #later to be used by "main.tscn"
-@export var seedpacket: String
+export var seedpacket: String
 #where all the plant and properties are in a dictionary
 
-@onready var set_packet = StatList.plants[seedpacket]
+onready var set_packet = StatList.plants[seedpacket]
 
 func _on_ready():
+	connect("toggled", self, "_on_SeedPacket_toggled")
 	pass
 	
 func _process(delta):
