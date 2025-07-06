@@ -1,6 +1,6 @@
 # INDIVIDUAL BUTTON FOR "seed_planter.tscn"
 extends Button
-
+var button_pressed = false
 #later to be used by "main.tscn"
 export var seedpacket: String
 
@@ -9,12 +9,10 @@ export var seedpacket: String
 onready var set_packet = StatList.plants[seedpacket]
 
 func _on_ready():
-	connect("toggled", self, "_on_SeedPacket_toggled")
 	pass
-	
 func _process(delta):
-#	if Input.is_mouse_button_pressed(2) and pressed == true:
-#		pressed = false
+	if Input.is_mouse_button_pressed(2):
+		pressed = false
 		
 	if is_pressed():
 		if StatList.seedpacket_id != get_instance_id():
@@ -24,11 +22,19 @@ func _process(delta):
 
 
 func _on_SeedPacket_toggled(button_pressed):
-	StatList.holding_plant = true
-	StatList.seedpacket_id = get_instance_id()
+	if button_pressed:
+		StatList.holding_plant = true
+		StatList.seedpacket_id = get_instance_id()
+		$Sprite.modulate.a = 0.5
+	else:
+		$Sprite.modulate.a = 0
 
 	pass # Replace with function body.
 
 func seedPacket_reset():
 	$TextureProgressBar.value = $TextureProgressBar.charge_time
 #	pressed = false
+
+
+func _on_SeedPacket_pressed():
+	pass # Replace with function body.

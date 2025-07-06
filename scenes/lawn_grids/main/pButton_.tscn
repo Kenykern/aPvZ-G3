@@ -21,16 +21,17 @@ seedpacket = "peashooter"
 frames = ExtResource( 7 )
 centered = false
 
+[node name="TextureProgressBar" type="TextureProgress" parent="."]
+margin_right = 100.0
+margin_bottom = 50.0
+value = 100.0
+texture_progress = ExtResource( 5 )
+script = ExtResource( 3 )
+
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 5 )
 centered = false
 script = ExtResource( 4 )
-
-[node name="TextureProgressBar" type="TextureProgress" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-texture_progress = ExtResource( 5 )
-script = ExtResource( 3 )
 
 [node name="PriceTag" type="Label" parent="."]
 margin_left = 2.0
@@ -63,4 +64,7 @@ text = "0
 align = 1
 valign = 1
 
+[connection signal="mouse_entered" from="." to="Node2D/Tooltip" method="_on_SeedPacket_mouse_entered"]
+[connection signal="mouse_exited" from="." to="Node2D/Tooltip" method="_on_SeedPacket_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_SeedPacket_pressed"]
 [connection signal="toggled" from="." to="." method="_on_SeedPacket_toggled"]

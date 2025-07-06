@@ -1,6 +1,5 @@
 extends Sprite
 
-""""
 func _ready():
 	modulate.a = 0
 	
@@ -11,5 +10,5 @@ func _process(delta):
 	if get_parent().button_pressed == true or $"../TextureProgressBar".value != 0:
 		modulate.a = 0.4
 	else:
-		modulate.a = 0
-"""
+		if StatList.holding_plant == false:
+			modulate.a = 0

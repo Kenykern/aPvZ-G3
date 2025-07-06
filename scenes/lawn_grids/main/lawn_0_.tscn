@@ -23,12 +23,9 @@ margin_left = -687.0
 margin_top = -256.0
 margin_right = 2312.0
 margin_bottom = 941.0
+mouse_filter = 2
 texture = ExtResource( 5 )
 stretch_mode = 1
-
-[node name="lawn_grid_1_" parent="." instance=ExtResource( 1 )]
-position = Vector2( 158, 100 )
-scale = Vector2( 0.839999, 1 )
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -52,6 +49,10 @@ position = Vector2( 1269, 581 )
 
 [node name="spawn5" type="Node2D" parent="."]
 position = Vector2( 1265, 682 )
+
+[node name="lawn_grid_1_" parent="." instance=ExtResource( 1 )]
+position = Vector2( 158, 100 )
+scale = Vector2( 0.839999, 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( 417, 352 )

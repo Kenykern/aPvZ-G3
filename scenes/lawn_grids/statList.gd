@@ -3,6 +3,7 @@ extends Control
 
 var holding_plant = false
 var seedpacket_id
+var mousePos = Vector2()
 
 var plants = {
 	"peashooter": {"name":"Peashooter", "suncost":"100", "path":"res://scenes/peashooter/psh.tscn"},
@@ -14,3 +15,6 @@ const paths = {
 	"peashooter":"res://scenes/peashooter/psh.tscn",
 	"sunflower":"res://scenes/sunflower/sunflower.tscn"
 }
+
+func _process(delta):
+	mousePos = get_viewport().get_mouse_position()
