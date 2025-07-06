@@ -4,7 +4,7 @@ var available = true
 var shOwner
 signal instID(instid1)
 var currId
-@export var lane: int
+export var lane: int
 func _ready():
 	$Polygon2D.set_color(Color(1,1,1,0))
 func _process(delta):
@@ -25,5 +25,3 @@ func _on_Area2D_mouse_entered():
 func _on_Area2D_mouse_exited():
 	$Polygon2D.set_color(Color(1,1,1,0))
 	mouseArea = false
-
-
