@@ -121,7 +121,7 @@ func _on_EatArea_area_exited(area):
 
 
 func _on_EatTimer_timeout():
-	var pe = weakref(planteat)
+		var pe = weakref(planteat)
 	if pe.get_ref() and state != "dead":
 		pe.get_ref().get_parent().health -= 20
 		pe.get_ref().get_parent().damage()

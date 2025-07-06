@@ -1,0 +1,2674 @@
+[gd_resource type="SpriteFrames" load_steps=662 format=3 uid="uid://0mwe7od02f7v"]
+
+[ext_resource type="Texture2D" uid="uid://dvf7rip35udk7" path="res://resources/enemies/zombie/zombie_death/zombie_death_00001.png" id="1_hjdbq"]
+[ext_resource type="Texture2D" uid="uid://dlim4i1aex6a0" path="res://resources/enemies/zombie/zombie_death/zombie_death_00002.png" id="2_i6lmj"]
+[ext_resource type="Texture2D" uid="uid://dy11lwmxbcobp" path="res://resources/enemies/zombie/zombie_death/zombie_death_00003.png" id="3_pp0bd"]
+[ext_resource type="Texture2D" uid="uid://p15fltmr54ij" path="res://resources/enemies/zombie/zombie_death/zombie_death_00004.png" id="4_ro71m"]
+[ext_resource type="Texture2D" uid="uid://xbcaiwva3mky" path="res://resources/enemies/zombie/zombie_death/zombie_death_00005.png" id="5_6uc3y"]
+[ext_resource type="Texture2D" uid="uid://dermncphj30n4" path="res://resources/enemies/zombie/zombie_death/zombie_death_00006.png" id="6_inyx7"]
+[ext_resource type="Texture2D" uid="uid://cdn6mwvert4bw" path="res://resources/enemies/zombie/zombie_death/zombie_death_00007.png" id="7_rod06"]
+[ext_resource type="Texture2D" uid="uid://jghnusctnq43" path="res://resources/enemies/zombie/zombie_death/zombie_death_00008.png" id="8_dqin4"]
+[ext_resource type="Texture2D" uid="uid://w7y24hxj51u3" path="res://resources/enemies/zombie/zombie_death/zombie_death_00009.png" id="9_6rcn4"]
+[ext_resource type="Texture2D" uid="uid://lhll8dsrmi4m" path="res://resources/enemies/zombie/zombie_death/zombie_death_00010.png" id="10_6ea6h"]
+[ext_resource type="Texture2D" uid="uid://dxmyd72hvg8sk" path="res://resources/enemies/zombie/zombie_death/zombie_death_00011.png" id="11_dnkk3"]
+[ext_resource type="Texture2D" uid="uid://4w7jmi3ufb3u" path="res://resources/enemies/zombie/zombie_death/zombie_death_00012.png" id="12_p8th5"]
+[ext_resource type="Texture2D" uid="uid://chxcy5qjprvtg" path="res://resources/enemies/zombie/zombie_death/zombie_death_00013.png" id="13_vfg6y"]
+[ext_resource type="Texture2D" uid="uid://b7kt3jnkea4rj" path="res://resources/enemies/zombie/zombie_death/zombie_death_00014.png" id="14_q2u2b"]
+[ext_resource type="Texture2D" uid="uid://7y6c4vmx4w6f" path="res://resources/enemies/zombie/zombie_death/zombie_death_00015.png" id="15_yobqb"]
+[ext_resource type="Texture2D" uid="uid://b73p1qbjlmgvs" path="res://resources/enemies/zombie/zombie_death/zombie_death_00016.png" id="16_872c2"]
+[ext_resource type="Texture2D" uid="uid://l44hvuncvecd" path="res://resources/enemies/zombie/zombie_death/zombie_death_00017.png" id="17_mukxh"]
+[ext_resource type="Texture2D" uid="uid://bqawtkrhqjgyn" path="res://resources/enemies/zombie/zombie_death/zombie_death_00018.png" id="18_xwha0"]
+[ext_resource type="Texture2D" uid="uid://bkrb3y3onqr7d" path="res://resources/enemies/zombie/zombie_death/zombie_death_00019.png" id="19_dsros"]
+[ext_resource type="Texture2D" uid="uid://bydkug7h80fuc" path="res://resources/enemies/zombie/zombie_death/zombie_death_00020.png" id="20_0dn8m"]
+[ext_resource type="Texture2D" uid="uid://dvymqdcambua1" path="res://resources/enemies/zombie/zombie_death/zombie_death_00021.png" id="21_1lklo"]
+[ext_resource type="Texture2D" uid="uid://bynmi1tper4nt" path="res://resources/enemies/zombie/zombie_death/zombie_death_00022.png" id="22_h10ic"]
+[ext_resource type="Texture2D" uid="uid://e6b1xcwy26fa" path="res://resources/enemies/zombie/zombie_death/zombie_death_00023.png" id="23_jrobo"]
+[ext_resource type="Texture2D" uid="uid://dteyuwb2be648" path="res://resources/enemies/zombie/zombie_death/zombie_death_00024.png" id="24_6n8wy"]
+[ext_resource type="Texture2D" uid="uid://bfo0sv3yoy60g" path="res://resources/enemies/zombie/zombie_death/zombie_death_00025.png" id="25_2lh0r"]
+[ext_resource type="Texture2D" uid="uid://b2pqd647gbusg" path="res://resources/enemies/zombie/zombie_death/zombie_death_00026.png" id="26_384ee"]
+[ext_resource type="Texture2D" uid="uid://687bc0urhdyk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00002.png" id="27_c10f0"]
+[ext_resource type="Texture2D" uid="uid://dx1ukvdss2bx8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00003.png" id="28_4jtiy"]
+[ext_resource type="Texture2D" uid="uid://5ce34ct4ugxb" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00004.png" id="29_f0ne5"]
+[ext_resource type="Texture2D" uid="uid://qyov0f5b40es" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00005.png" id="30_bb6h8"]
+[ext_resource type="Texture2D" uid="uid://thtm64jabl6d" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00006.png" id="31_h4ja7"]
+[ext_resource type="Texture2D" uid="uid://deepr4jor6pcn" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00007.png" id="32_v2dhr"]
+[ext_resource type="Texture2D" uid="uid://bgwurkmd4jrrj" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00008.png" id="33_qypt1"]
+[ext_resource type="Texture2D" uid="uid://c1nwcndtmkq83" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00009.png" id="34_johud"]
+[ext_resource type="Texture2D" uid="uid://d304v2lf24h7w" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00010.png" id="35_bgodr"]
+[ext_resource type="Texture2D" uid="uid://binneyn07q757" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00011.png" id="36_e6ytn"]
+[ext_resource type="Texture2D" uid="uid://bdgxsaytfnnij" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00012.png" id="37_gdf7e"]
+[ext_resource type="Texture2D" uid="uid://bjkymynhuv6gk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00013.png" id="38_g8qm6"]
+[ext_resource type="Texture2D" uid="uid://2gif6s4xrmlb" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00014.png" id="39_fkt31"]
+[ext_resource type="Texture2D" uid="uid://dkquxwupuqx6d" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00015.png" id="40_1nmf3"]
+[ext_resource type="Texture2D" uid="uid://dhkx2kpcca0wp" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00016.png" id="41_47eeu"]
+[ext_resource type="Texture2D" uid="uid://boa4t4h1ds1gw" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00017.png" id="42_lfxfi"]
+[ext_resource type="Texture2D" uid="uid://cinoes5levbl6" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00018.png" id="43_eai5q"]
+[ext_resource type="Texture2D" uid="uid://3pqab3muf1oe" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00019.png" id="44_ihefa"]
+[ext_resource type="Texture2D" uid="uid://chr4igqml4vb0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00020.png" id="45_upuqe"]
+[ext_resource type="Texture2D" uid="uid://b2trllvpgv87f" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00021.png" id="46_d282x"]
+[ext_resource type="Texture2D" uid="uid://c7qokrykmyjcd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00022.png" id="47_w2rp5"]
+[ext_resource type="Texture2D" uid="uid://ddun73x003xm6" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00023.png" id="48_3a6a2"]
+[ext_resource type="Texture2D" uid="uid://dcwttnou2pobq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00024.png" id="49_qxxy6"]
+[ext_resource type="Texture2D" uid="uid://c07450pkfcft1" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00025.png" id="50_d31mb"]
+[ext_resource type="Texture2D" uid="uid://ccu1bjfspnial" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00026.png" id="51_tnaeh"]
+[ext_resource type="Texture2D" uid="uid://b2o0cvo8mmfa6" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00027.png" id="52_0d0om"]
+[ext_resource type="Texture2D" uid="uid://cgjyess2yvoep" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00028.png" id="53_a63xf"]
+[ext_resource type="Texture2D" uid="uid://365efrs77lwu" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00029.png" id="54_riv7h"]
+[ext_resource type="Texture2D" uid="uid://b15gwhnrxoekh" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00030.png" id="55_ba4w8"]
+[ext_resource type="Texture2D" uid="uid://m18y0sdocrl1" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00031.png" id="56_yc3jt"]
+[ext_resource type="Texture2D" uid="uid://ottelksu2xem" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00032.png" id="57_psc2d"]
+[ext_resource type="Texture2D" uid="uid://cpb84jsain8df" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00033.png" id="58_2co17"]
+[ext_resource type="Texture2D" uid="uid://dwhqao26xqk1i" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00034.png" id="59_af0v7"]
+[ext_resource type="Texture2D" uid="uid://ig8plmtxrqiy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00035.png" id="60_dxrbu"]
+[ext_resource type="Texture2D" uid="uid://bkk4cvb8ik21f" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00036.png" id="61_of82k"]
+[ext_resource type="Texture2D" uid="uid://d0c1tjkobx34h" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00037.png" id="62_nmn5r"]
+[ext_resource type="Texture2D" uid="uid://buqhmw1137ylk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00038.png" id="63_460cd"]
+[ext_resource type="Texture2D" uid="uid://cr7xyhfevcsla" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00039.png" id="64_501x5"]
+[ext_resource type="Texture2D" uid="uid://bvjle2k82r44" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00040.png" id="65_xxtiw"]
+[ext_resource type="Texture2D" uid="uid://cmt3nmkwhd1it" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00041.png" id="66_lmmr6"]
+[ext_resource type="Texture2D" uid="uid://rtcn2u8q2utf" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00042.png" id="67_vkj2b"]
+[ext_resource type="Texture2D" uid="uid://chfd2qcyuduik" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00043.png" id="68_5cjhr"]
+[ext_resource type="Texture2D" uid="uid://d3rfltdc6m4q" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00044.png" id="69_4hbpo"]
+[ext_resource type="Texture2D" uid="uid://ci5ctuf8t5qr1" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00045.png" id="70_wd6di"]
+[ext_resource type="Texture2D" uid="uid://dfhqr2wcunqwe" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00046.png" id="71_ssihu"]
+[ext_resource type="Texture2D" uid="uid://chvcxc6aj2cu0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00047.png" id="72_jhk3v"]
+[ext_resource type="Texture2D" uid="uid://03ynnal1aab7" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00048.png" id="73_iwspo"]
+[ext_resource type="Texture2D" uid="uid://teft3noo6uqy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00049.png" id="74_08oir"]
+[ext_resource type="Texture2D" uid="uid://c0oqtpi4tnw2d" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00050.png" id="75_24na0"]
+[ext_resource type="Texture2D" uid="uid://crq3j7uqpgc1r" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00051.png" id="76_6pjrr"]
+[ext_resource type="Texture2D" uid="uid://bt2fx5p1kl03" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00052.png" id="77_bbpqw"]
+[ext_resource type="Texture2D" uid="uid://bf016r344tfch" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00053.png" id="78_5jgrh"]
+[ext_resource type="Texture2D" uid="uid://bir2gx8jx0xob" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00054.png" id="79_levys"]
+[ext_resource type="Texture2D" uid="uid://gx1vc37on8d6" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00055.png" id="80_223iu"]
+[ext_resource type="Texture2D" uid="uid://c3lrpsu20rf10" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00056.png" id="81_fqkpm"]
+[ext_resource type="Texture2D" uid="uid://c6nwytx2pkex8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00057.png" id="82_qcvv0"]
+[ext_resource type="Texture2D" uid="uid://ctjwwn6q504dy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00058.png" id="83_kugb5"]
+[ext_resource type="Texture2D" uid="uid://dra4nsp7qpgjk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00059.png" id="84_r4hps"]
+[ext_resource type="Texture2D" uid="uid://dmkb5ybiotbkq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00060.png" id="85_o62cs"]
+[ext_resource type="Texture2D" uid="uid://b2e8xfqulm1vt" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00061.png" id="86_v50mt"]
+[ext_resource type="Texture2D" uid="uid://228vo5ob20bs" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00062.png" id="87_qp1of"]
+[ext_resource type="Texture2D" uid="uid://coqg0c80i6o6b" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00063.png" id="88_xqw04"]
+[ext_resource type="Texture2D" uid="uid://f40l0ohprj8c" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00064.png" id="89_pok1k"]
+[ext_resource type="Texture2D" uid="uid://c11vqwr1wd23y" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00065.png" id="90_3dwo4"]
+[ext_resource type="Texture2D" uid="uid://dgkacjjifv37k" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00066.png" id="91_uojg5"]
+[ext_resource type="Texture2D" uid="uid://vafujgxvkorv" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00067.png" id="92_abu0o"]
+[ext_resource type="Texture2D" uid="uid://dp3dnk40bvvdg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00068.png" id="93_asma2"]
+[ext_resource type="Texture2D" uid="uid://bhuftkdckdn7f" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00069.png" id="94_2kpen"]
+[ext_resource type="Texture2D" uid="uid://d0wfen558kns8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00070.png" id="95_jjvhh"]
+[ext_resource type="Texture2D" uid="uid://bgtxgpeh6087m" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00071.png" id="96_v1j0d"]
+[ext_resource type="Texture2D" uid="uid://cu7coj3qf0nwq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00072.png" id="97_ihdut"]
+[ext_resource type="Texture2D" uid="uid://cua238j5415v7" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00073.png" id="98_cjelo"]
+[ext_resource type="Texture2D" uid="uid://1cynnsgnqc2c" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00074.png" id="99_7aue3"]
+[ext_resource type="Texture2D" uid="uid://crmnwx3sevfoy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00075.png" id="100_dtios"]
+[ext_resource type="Texture2D" uid="uid://djfql118ccnn0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00076.png" id="101_2hx3q"]
+[ext_resource type="Texture2D" uid="uid://cch44seew2u5w" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00077.png" id="102_2dal0"]
+[ext_resource type="Texture2D" uid="uid://bulti82kekw6a" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00078.png" id="103_k22rh"]
+[ext_resource type="Texture2D" uid="uid://dex3j3mvbehtl" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00079.png" id="104_8favy"]
+[ext_resource type="Texture2D" uid="uid://j3oppkrhjmak" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00080.png" id="105_1arqt"]
+[ext_resource type="Texture2D" uid="uid://bnqautl68qwpp" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00081.png" id="106_qf1da"]
+[ext_resource type="Texture2D" uid="uid://on6as42gun4j" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00082.png" id="107_waccb"]
+[ext_resource type="Texture2D" uid="uid://dd7eedx4k76f4" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00083.png" id="108_vhipj"]
+[ext_resource type="Texture2D" uid="uid://b00x115es05wm" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00084.png" id="109_1yuwo"]
+[ext_resource type="Texture2D" uid="uid://djydouj32ycbd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00085.png" id="110_6uodw"]
+[ext_resource type="Texture2D" uid="uid://c7ia6wk2tcpx3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00086.png" id="111_kimea"]
+[ext_resource type="Texture2D" uid="uid://cuuem2dxitcxx" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00087.png" id="112_0hm5w"]
+[ext_resource type="Texture2D" uid="uid://o5wu465eomgu" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00088.png" id="113_mh4j0"]
+[ext_resource type="Texture2D" uid="uid://bulgvql1gt0qc" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00089.png" id="114_xmqga"]
+[ext_resource type="Texture2D" uid="uid://cndelir0i7q3k" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00090.png" id="115_3o1mf"]
+[ext_resource type="Texture2D" uid="uid://bjbfd8urgokww" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00091.png" id="116_hc1jy"]
+[ext_resource type="Texture2D" uid="uid://d2tqo0kyr0q2b" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00092.png" id="117_h6fm6"]
+[ext_resource type="Texture2D" uid="uid://cpo2t1rfpt5sh" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00093.png" id="118_hbofc"]
+[ext_resource type="Texture2D" uid="uid://ox5rxl2pbsd0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00094.png" id="119_lqixj"]
+[ext_resource type="Texture2D" uid="uid://cw0rxt50mqgqf" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00095.png" id="120_wa1gx"]
+[ext_resource type="Texture2D" uid="uid://c7bgx2etrtacg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00096.png" id="121_vem3x"]
+[ext_resource type="Texture2D" uid="uid://coa3gtpq3xiso" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00097.png" id="122_vfxsx"]
+[ext_resource type="Texture2D" uid="uid://b6fagr4icbo73" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00098.png" id="123_af7ev"]
+[ext_resource type="Texture2D" uid="uid://dmv4f778x2o0s" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00099.png" id="124_tay0w"]
+[ext_resource type="Texture2D" uid="uid://cvk1hh23mciy1" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00100.png" id="125_5i3b0"]
+[ext_resource type="Texture2D" uid="uid://drvcd0ix3hi2f" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00101.png" id="126_0ydni"]
+[ext_resource type="Texture2D" uid="uid://cgvb1vyrnuk66" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00102.png" id="127_iwy0l"]
+[ext_resource type="Texture2D" uid="uid://cpdsp116w1ivr" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00103.png" id="128_2i6od"]
+[ext_resource type="Texture2D" uid="uid://btksfg124t0dg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00104.png" id="129_0ufwk"]
+[ext_resource type="Texture2D" uid="uid://dbc17hrsg4cyk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00105.png" id="130_cpe6w"]
+[ext_resource type="Texture2D" uid="uid://cjiwetnbxabkg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00106.png" id="131_252ox"]
+[ext_resource type="Texture2D" uid="uid://whsn250id4gf" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00107.png" id="132_f3g2v"]
+[ext_resource type="Texture2D" uid="uid://cvfeijcs3eyeq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00108.png" id="133_5h8hm"]
+[ext_resource type="Texture2D" uid="uid://cf468atu6ja47" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00109.png" id="134_egh3f"]
+[ext_resource type="Texture2D" uid="uid://dif1ggwtffy4v" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00110.png" id="135_hatvh"]
+[ext_resource type="Texture2D" uid="uid://d5w57ix6oksj" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00111.png" id="136_omo7m"]
+[ext_resource type="Texture2D" uid="uid://b0y2txn37bowx" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00112.png" id="137_iypm8"]
+[ext_resource type="Texture2D" uid="uid://douttymgee3gs" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00113.png" id="138_qttm1"]
+[ext_resource type="Texture2D" uid="uid://citp8s3qy7585" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00114.png" id="139_017ff"]
+[ext_resource type="Texture2D" uid="uid://dulb5ceo02pi" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00115.png" id="140_tilg2"]
+[ext_resource type="Texture2D" uid="uid://b535va80lbmeo" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00116.png" id="141_0hgmm"]
+[ext_resource type="Texture2D" uid="uid://c8dxc4t8s13r3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00117.png" id="142_vi163"]
+[ext_resource type="Texture2D" uid="uid://csoqv6y43jg6x" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00118.png" id="143_xedxv"]
+[ext_resource type="Texture2D" uid="uid://dx4pytjxxlruy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00119.png" id="144_qugq4"]
+[ext_resource type="Texture2D" uid="uid://8mf4ee2jjosg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00120.png" id="145_tibwl"]
+[ext_resource type="Texture2D" uid="uid://bfcw3aq3gv33g" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00121.png" id="146_13nbf"]
+[ext_resource type="Texture2D" uid="uid://5nmjy80ygtmg" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00122.png" id="147_lor2t"]
+[ext_resource type="Texture2D" uid="uid://d4msuakoy46e4" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00123.png" id="148_u2hev"]
+[ext_resource type="Texture2D" uid="uid://dleg8bdmu7lpx" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00124.png" id="149_sekq0"]
+[ext_resource type="Texture2D" uid="uid://b50lgg0kr8cc3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00125.png" id="150_sc0w6"]
+[ext_resource type="Texture2D" uid="uid://dra7mdqqt0kr8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00126.png" id="151_gun6t"]
+[ext_resource type="Texture2D" uid="uid://dc61iqa440a3q" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00127.png" id="152_vdwdh"]
+[ext_resource type="Texture2D" uid="uid://bjlidv8i5cfac" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00128.png" id="153_bchlt"]
+[ext_resource type="Texture2D" uid="uid://ckkbdkjbbtky3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00129.png" id="154_ocv4t"]
+[ext_resource type="Texture2D" uid="uid://cmq4f6gx1wuab" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00130.png" id="155_w7j6u"]
+[ext_resource type="Texture2D" uid="uid://6op2vn2yqeuh" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00131.png" id="156_irp1u"]
+[ext_resource type="Texture2D" uid="uid://bua5ff7fheptd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00132.png" id="157_rbr50"]
+[ext_resource type="Texture2D" uid="uid://bonkp2j58ix85" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00133.png" id="158_u2kwf"]
+[ext_resource type="Texture2D" uid="uid://poabj6eq42ei" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00134.png" id="159_mapcs"]
+[ext_resource type="Texture2D" uid="uid://20lmvxj80bon" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00135.png" id="160_digcr"]
+[ext_resource type="Texture2D" uid="uid://bppfx6rhs42ch" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00136.png" id="161_vrxac"]
+[ext_resource type="Texture2D" uid="uid://m2mkmfkpuie" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00137.png" id="162_nj1uu"]
+[ext_resource type="Texture2D" uid="uid://dx81r1a24hd3p" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00138.png" id="163_rvvvx"]
+[ext_resource type="Texture2D" uid="uid://4tgfm6rtbq0b" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00139.png" id="164_481yx"]
+[ext_resource type="Texture2D" uid="uid://c0cai2smq7j4k" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00140.png" id="165_h1773"]
+[ext_resource type="Texture2D" uid="uid://c1mufcbauh28f" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00141.png" id="166_fh4n5"]
+[ext_resource type="Texture2D" uid="uid://ca1a6qigdc6ht" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00142.png" id="167_xcd65"]
+[ext_resource type="Texture2D" uid="uid://ddxlaq3pi2wgi" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00143.png" id="168_78pvd"]
+[ext_resource type="Texture2D" uid="uid://cqj551wv01ssv" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00144.png" id="169_6h4m7"]
+[ext_resource type="Texture2D" uid="uid://btjoukm5om7gw" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00145.png" id="170_s8ix8"]
+[ext_resource type="Texture2D" uid="uid://c1ulvwv7e2lo4" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00146.png" id="171_co4vx"]
+[ext_resource type="Texture2D" uid="uid://u7lqngbnha62" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00147.png" id="172_vdrle"]
+[ext_resource type="Texture2D" uid="uid://ben3lnlub1xh" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00148.png" id="173_pevx1"]
+[ext_resource type="Texture2D" uid="uid://cmilsga82wmuk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00149.png" id="174_s7vwg"]
+[ext_resource type="Texture2D" uid="uid://dmahjovmshsts" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00150.png" id="175_vwjt0"]
+[ext_resource type="Texture2D" uid="uid://cxoc36q7u4qwt" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00151.png" id="176_ak7vp"]
+[ext_resource type="Texture2D" uid="uid://cv7wok61wem2i" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00152.png" id="177_y50li"]
+[ext_resource type="Texture2D" uid="uid://doihs2umm0o0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00153.png" id="178_fugui"]
+[ext_resource type="Texture2D" uid="uid://bmhvgyoqwtua1" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00154.png" id="179_18fcm"]
+[ext_resource type="Texture2D" uid="uid://bjsw6m0klkman" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00155.png" id="180_b203v"]
+[ext_resource type="Texture2D" uid="uid://im6k42d2wvcr" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00156.png" id="181_6rdmf"]
+[ext_resource type="Texture2D" uid="uid://qnt75b1jup6m" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00157.png" id="182_ptxkn"]
+[ext_resource type="Texture2D" uid="uid://bhgqegcigo5eu" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00158.png" id="183_gtpsx"]
+[ext_resource type="Texture2D" uid="uid://doub7fg2ogxfy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00159.png" id="184_6pjxe"]
+[ext_resource type="Texture2D" uid="uid://bycomkjno554e" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00160.png" id="185_k76fj"]
+[ext_resource type="Texture2D" uid="uid://b8v44kjjubqs6" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00161.png" id="186_dir06"]
+[ext_resource type="Texture2D" uid="uid://bnwnlw2skoyvh" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00162.png" id="187_byydr"]
+[ext_resource type="Texture2D" uid="uid://cj7mc2gnkn3bl" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00163.png" id="188_bujq0"]
+[ext_resource type="Texture2D" uid="uid://biebndn2r4mpv" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00164.png" id="189_b4wsn"]
+[ext_resource type="Texture2D" uid="uid://dl7avmmo3aqyr" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00165.png" id="190_08o6p"]
+[ext_resource type="Texture2D" uid="uid://bgq5fysbgtwwd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00166.png" id="191_md48u"]
+[ext_resource type="Texture2D" uid="uid://ntethsirx8er" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00167.png" id="192_c1abf"]
+[ext_resource type="Texture2D" uid="uid://dtsy6kq42pgrd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00168.png" id="193_0ro5i"]
+[ext_resource type="Texture2D" uid="uid://dy1fqmxvxg1ra" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00169.png" id="194_h0syj"]
+[ext_resource type="Texture2D" uid="uid://d2f6jhd78uxkr" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00170.png" id="195_0pdrr"]
+[ext_resource type="Texture2D" uid="uid://bl040l5xidlwn" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00171.png" id="196_l0ael"]
+[ext_resource type="Texture2D" uid="uid://chn6gqfhxol42" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00172.png" id="197_nvs0t"]
+[ext_resource type="Texture2D" uid="uid://dljvok584fdbd" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00173.png" id="198_iawj2"]
+[ext_resource type="Texture2D" uid="uid://bjis2qtss2fvk" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00174.png" id="199_lg5mg"]
+[ext_resource type="Texture2D" uid="uid://bh0e1l5te0u53" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00175.png" id="200_68hdd"]
+[ext_resource type="Texture2D" uid="uid://djdp6s37l6dqy" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00176.png" id="201_g6byg"]
+[ext_resource type="Texture2D" uid="uid://depr5atmgks51" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00177.png" id="202_fgrmd"]
+[ext_resource type="Texture2D" uid="uid://mw65wtyx40f8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00178.png" id="203_1opao"]
+[ext_resource type="Texture2D" uid="uid://b8i58sm24n3m8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00179.png" id="204_jm4eb"]
+[ext_resource type="Texture2D" uid="uid://bl2nb54gvq70o" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00180.png" id="205_lbjnb"]
+[ext_resource type="Texture2D" uid="uid://htm1dp56pup3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00181.png" id="206_o5ymb"]
+[ext_resource type="Texture2D" uid="uid://gbhxw43e3f7t" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00182.png" id="207_smilp"]
+[ext_resource type="Texture2D" uid="uid://bqcv4xv2noub7" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00183.png" id="208_plwxu"]
+[ext_resource type="Texture2D" uid="uid://ndllk263rlba" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00184.png" id="209_rv4gh"]
+[ext_resource type="Texture2D" uid="uid://b643oxgdby1fl" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00185.png" id="210_mb6x8"]
+[ext_resource type="Texture2D" uid="uid://c33id1i3r4q0q" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00186.png" id="211_r8no4"]
+[ext_resource type="Texture2D" uid="uid://bta1jr5gpk75" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00187.png" id="212_7l0px"]
+[ext_resource type="Texture2D" uid="uid://7mhe1dghjmf0" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00188.png" id="213_61s83"]
+[ext_resource type="Texture2D" uid="uid://cbtgllrte8ptm" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00189.png" id="214_y6j2i"]
+[ext_resource type="Texture2D" uid="uid://bbwqsm6hyspg7" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00190.png" id="215_ovsul"]
+[ext_resource type="Texture2D" uid="uid://bu0o3e5coigfp" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00191.png" id="216_5qsyk"]
+[ext_resource type="Texture2D" uid="uid://dcdkn8gn5o38h" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00192.png" id="217_lbaar"]
+[ext_resource type="Texture2D" uid="uid://bcaxlx4sb5ca4" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00193.png" id="218_2bj1x"]
+[ext_resource type="Texture2D" uid="uid://bdhs4ul5pb1ow" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00194.png" id="219_c761d"]
+[ext_resource type="Texture2D" uid="uid://dqbth5xoln3ah" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00195.png" id="220_m5jxx"]
+[ext_resource type="Texture2D" uid="uid://l3iwi5ail6j8" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00196.png" id="221_7dn4v"]
+[ext_resource type="Texture2D" uid="uid://cegyjoaqlx1af" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00197.png" id="222_do0yk"]
+[ext_resource type="Texture2D" uid="uid://bndcj6goedlu3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00198.png" id="223_hjnvt"]
+[ext_resource type="Texture2D" uid="uid://gjs4vkdugdae" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00199.png" id="224_rjmit"]
+[ext_resource type="Texture2D" uid="uid://babdpu6uk7bjq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00200.png" id="225_yo6ng"]
+[ext_resource type="Texture2D" uid="uid://dod45a3jbwcbq" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00201.png" id="226_dvdk2"]
+[ext_resource type="Texture2D" uid="uid://kyscr6pd0uel" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00202.png" id="227_jv5m4"]
+[ext_resource type="Texture2D" uid="uid://cdgxneqeo6381" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00203.png" id="228_06t5s"]
+[ext_resource type="Texture2D" uid="uid://cd6074unap15e" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00204.png" id="229_m8v6c"]
+[ext_resource type="Texture2D" uid="uid://mbe7xuvutlj3" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00205.png" id="230_a2exb"]
+[ext_resource type="Texture2D" uid="uid://bh6eeve0e1bdv" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00206.png" id="231_w5bqn"]
+[ext_resource type="Texture2D" uid="uid://dabtx6lohxab" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00207.png" id="232_hevbd"]
+[ext_resource type="Texture2D" uid="uid://nivx0t7ote1k" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00208.png" id="233_gc0s3"]
+[ext_resource type="Texture2D" uid="uid://dv3m7wfepsppo" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00209.png" id="234_ujery"]
+[ext_resource type="Texture2D" uid="uid://cioxdulymii6o" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00210.png" id="235_vej52"]
+[ext_resource type="Texture2D" uid="uid://dgp32ah08uhbe" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00211.png" id="236_xd81k"]
+[ext_resource type="Texture2D" uid="uid://dooew8pogb804" path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00212.png" id="237_huxyt"]
+[ext_resource type="Texture2D" uid="uid://hrp0ad20ecfj" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00001.png" id="238_n5hrs"]
+[ext_resource type="Texture2D" uid="uid://dagb8iv31fhuv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00002.png" id="239_rd5m1"]
+[ext_resource type="Texture2D" uid="uid://tlyhd00g74p" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00003.png" id="240_slgb1"]
+[ext_resource type="Texture2D" uid="uid://bpahdimwsfvay" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00004.png" id="241_npubt"]
+[ext_resource type="Texture2D" uid="uid://bsgpl3ewgmi2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00005.png" id="242_fxrwk"]
+[ext_resource type="Texture2D" uid="uid://52umg6amdb4k" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00006.png" id="243_xr2jl"]
+[ext_resource type="Texture2D" uid="uid://dkvlcsw4xhhrt" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00007.png" id="244_ui64l"]
+[ext_resource type="Texture2D" uid="uid://xu2q54bo2u7m" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00008.png" id="245_yxjfj"]
+[ext_resource type="Texture2D" uid="uid://b7tpiavax7rw4" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00009.png" id="246_lckwk"]
+[ext_resource type="Texture2D" uid="uid://dkbrqjqwyrrun" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00010.png" id="247_hfjrl"]
+[ext_resource type="Texture2D" uid="uid://7w07dyhbo7fk" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00011.png" id="248_fnhic"]
+[ext_resource type="Texture2D" uid="uid://3kbpe6hp42gg" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00012.png" id="249_x32oe"]
+[ext_resource type="Texture2D" uid="uid://csj5jkh8vf5wx" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00013.png" id="250_hh1au"]
+[ext_resource type="Texture2D" uid="uid://cbib1scnxye0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00014.png" id="251_4ruy4"]
+[ext_resource type="Texture2D" uid="uid://db3ovip4ss22a" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00015.png" id="252_qhl5b"]
+[ext_resource type="Texture2D" uid="uid://1qe2nys3jofn" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00016.png" id="253_3h5ao"]
+[ext_resource type="Texture2D" uid="uid://divchvvvrek3g" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00017.png" id="254_j372d"]
+[ext_resource type="Texture2D" uid="uid://bjtui6ey7msgr" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00018.png" id="255_23rph"]
+[ext_resource type="Texture2D" uid="uid://b8hsx83iom3t3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00019.png" id="256_dn7lf"]
+[ext_resource type="Texture2D" uid="uid://cgo7l1bkdtrhp" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00020.png" id="257_2k1yp"]
+[ext_resource type="Texture2D" uid="uid://bjvv288oe4k45" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00021.png" id="258_a63sj"]
+[ext_resource type="Texture2D" uid="uid://b2nim6562t54v" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00022.png" id="259_imvja"]
+[ext_resource type="Texture2D" uid="uid://cgdmy8kxn88w6" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00023.png" id="260_db7yf"]
+[ext_resource type="Texture2D" uid="uid://bkra1icpqkxw5" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00024.png" id="261_gfr1b"]
+[ext_resource type="Texture2D" uid="uid://cmrug0b1jwmr1" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00025.png" id="262_3vhr5"]
+[ext_resource type="Texture2D" uid="uid://dhfejjov7luw1" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00026.png" id="263_domr6"]
+[ext_resource type="Texture2D" uid="uid://b7ua8ridb8wfi" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00027.png" id="264_t1hjb"]
+[ext_resource type="Texture2D" uid="uid://4rly45k7e0hc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00028.png" id="265_2khny"]
+[ext_resource type="Texture2D" uid="uid://c44fno0hptl63" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00029.png" id="266_28f85"]
+[ext_resource type="Texture2D" uid="uid://dxj2wogsv1h6r" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00030.png" id="267_kuu2i"]
+[ext_resource type="Texture2D" uid="uid://y6jmalcahato" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00031.png" id="268_j6cml"]
+[ext_resource type="Texture2D" uid="uid://cuukhn5u6kl8j" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00032.png" id="269_d6idg"]
+[ext_resource type="Texture2D" uid="uid://30inc6vmm8ui" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00033.png" id="270_qc2mc"]
+[ext_resource type="Texture2D" uid="uid://c742pvxhxi38i" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00034.png" id="271_b0en8"]
+[ext_resource type="Texture2D" uid="uid://c83e1qj20ohia" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00035.png" id="272_67e1v"]
+[ext_resource type="Texture2D" uid="uid://b57wpfgadbtcv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00036.png" id="273_0ayn4"]
+[ext_resource type="Texture2D" uid="uid://cwwfqao0861jr" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00037.png" id="274_lqmfh"]
+[ext_resource type="Texture2D" uid="uid://bxw7lw00af2q7" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00038.png" id="275_ckqom"]
+[ext_resource type="Texture2D" uid="uid://cikm1ov7ddf2l" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00039.png" id="276_11sub"]
+[ext_resource type="Texture2D" uid="uid://cpb6b4kwhxht4" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00040.png" id="277_tju1t"]
+[ext_resource type="Texture2D" uid="uid://cmfqfhx5p58f2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00041.png" id="278_alud8"]
+[ext_resource type="Texture2D" uid="uid://d4mmrlrlmhabc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00042.png" id="279_2dl08"]
+[ext_resource type="Texture2D" uid="uid://dk672fkts5142" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00043.png" id="280_8l4em"]
+[ext_resource type="Texture2D" uid="uid://50t66vfr1uym" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00044.png" id="281_0mue2"]
+[ext_resource type="Texture2D" uid="uid://du78dqg46qpiq" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00045.png" id="282_7heq7"]
+[ext_resource type="Texture2D" uid="uid://ohw1kek834jl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00046.png" id="283_xp6at"]
+[ext_resource type="Texture2D" uid="uid://c3t357jgq78n8" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00047.png" id="284_8xcv0"]
+[ext_resource type="Texture2D" uid="uid://budxgmndls3hb" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00048.png" id="285_hwa7v"]
+[ext_resource type="Texture2D" uid="uid://bv4kydl8x4jfl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00049.png" id="286_ieafr"]
+[ext_resource type="Texture2D" uid="uid://bhxg1wjuextsd" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00050.png" id="287_1d7hs"]
+[ext_resource type="Texture2D" uid="uid://dosr7okk26n70" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00051.png" id="288_cjgpe"]
+[ext_resource type="Texture2D" uid="uid://478glcbqpuo" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00052.png" id="289_v6sri"]
+[ext_resource type="Texture2D" uid="uid://bbqfhddh1nnd0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00053.png" id="290_ogjfq"]
+[ext_resource type="Texture2D" uid="uid://bmum2hjr303di" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00054.png" id="291_ecdb3"]
+[ext_resource type="Texture2D" uid="uid://bf2o76nbwhjrl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00055.png" id="292_b0frt"]
+[ext_resource type="Texture2D" uid="uid://chducp4utyy3s" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00056.png" id="293_fkh4i"]
+[ext_resource type="Texture2D" uid="uid://dkk242dv84ulf" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00057.png" id="294_nqe2u"]
+[ext_resource type="Texture2D" uid="uid://dc70ffm3m2cw0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00058.png" id="295_ow1qc"]
+[ext_resource type="Texture2D" uid="uid://diij20c61ck6a" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00059.png" id="296_vdhhg"]
+[ext_resource type="Texture2D" uid="uid://dylrjog33kh7s" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00060.png" id="297_qstoq"]
+[ext_resource type="Texture2D" uid="uid://c84cw6udkerxe" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00061.png" id="298_fiow5"]
+[ext_resource type="Texture2D" uid="uid://dgjc1oyx08e5m" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00062.png" id="299_c5q3a"]
+[ext_resource type="Texture2D" uid="uid://88t08pmv0sap" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00063.png" id="300_i8nih"]
+[ext_resource type="Texture2D" uid="uid://c4ag8spuk8tlk" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00064.png" id="301_dp00l"]
+[ext_resource type="Texture2D" uid="uid://4wjraxextwat" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00065.png" id="302_c6jp1"]
+[ext_resource type="Texture2D" uid="uid://uq08wxmcca15" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00066.png" id="303_qyut5"]
+[ext_resource type="Texture2D" uid="uid://dbgysi7ts2qi" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00067.png" id="304_fxqlc"]
+[ext_resource type="Texture2D" uid="uid://ccy8yqfrbvgrw" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00068.png" id="305_gb8fx"]
+[ext_resource type="Texture2D" uid="uid://cexe773jq84q3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00069.png" id="306_o2fw8"]
+[ext_resource type="Texture2D" uid="uid://om6p8w306yu0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00070.png" id="307_amivk"]
+[ext_resource type="Texture2D" uid="uid://4duiqelkykxs" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00071.png" id="308_l0wya"]
+[ext_resource type="Texture2D" uid="uid://cr12bkojqvsad" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00072.png" id="309_23mvf"]
+[ext_resource type="Texture2D" uid="uid://00duy28t5bm3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00073.png" id="310_vya63"]
+[ext_resource type="Texture2D" uid="uid://0ed12spw8rr2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00074.png" id="311_1acyb"]
+[ext_resource type="Texture2D" uid="uid://bnvmagwdef41e" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00075.png" id="312_lela7"]
+[ext_resource type="Texture2D" uid="uid://c4kb7bpvs3qqi" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00076.png" id="313_0y6i6"]
+[ext_resource type="Texture2D" uid="uid://danb6df2h5qxc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00077.png" id="314_dje0j"]
+[ext_resource type="Texture2D" uid="uid://2nd234a8q7e0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00078.png" id="315_l73w4"]
+[ext_resource type="Texture2D" uid="uid://dysq47np6k0tt" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00079.png" id="316_2f86i"]
+[ext_resource type="Texture2D" uid="uid://bv43h0bqglb35" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00080.png" id="317_dshic"]
+[ext_resource type="Texture2D" uid="uid://chqh46jilqt2e" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00081.png" id="318_s27cm"]
+[ext_resource type="Texture2D" uid="uid://bb0uwm7emnxun" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00082.png" id="319_kmbqp"]
+[ext_resource type="Texture2D" uid="uid://cbb4robofo3j8" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00083.png" id="320_vn4rr"]
+[ext_resource type="Texture2D" uid="uid://b5ii7w1ktysv5" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00084.png" id="321_cvi54"]
+[ext_resource type="Texture2D" uid="uid://la815bn4n2n5" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00085.png" id="322_h65r4"]
+[ext_resource type="Texture2D" uid="uid://nigoit1f87cl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00086.png" id="323_3ps3h"]
+[ext_resource type="Texture2D" uid="uid://cthvcbav24llb" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00087.png" id="324_8aqx1"]
+[ext_resource type="Texture2D" uid="uid://d4k6a1bqlnmbc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00088.png" id="325_i8y60"]
+[ext_resource type="Texture2D" uid="uid://b7i3f2bf20lae" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00089.png" id="326_2eoks"]
+[ext_resource type="Texture2D" uid="uid://cy7dndiak2xvp" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00090.png" id="327_pyi02"]
+[ext_resource type="Texture2D" uid="uid://cnx8mqvak54g2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00091.png" id="328_fllqs"]
+[ext_resource type="Texture2D" uid="uid://b4w3384m34w7e" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00092.png" id="329_5ah1l"]
+[ext_resource type="Texture2D" uid="uid://dars7ikqj6pno" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00093.png" id="330_74ip3"]
+[ext_resource type="Texture2D" uid="uid://bevqsbodhplx1" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00094.png" id="331_e3ipb"]
+[ext_resource type="Texture2D" uid="uid://dfsumgc15a24e" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00095.png" id="332_tpdm1"]
+[ext_resource type="Texture2D" uid="uid://55epb7addp8m" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00096.png" id="333_7358n"]
+[ext_resource type="Texture2D" uid="uid://b1c3hn4feb3tj" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00097.png" id="334_m8e2q"]
+[ext_resource type="Texture2D" uid="uid://db5bao8a7b1ep" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00098.png" id="335_uxd3p"]
+[ext_resource type="Texture2D" uid="uid://d24kthc0ww48k" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00099.png" id="336_qapt1"]
+[ext_resource type="Texture2D" uid="uid://byqukwsxokfex" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00100.png" id="337_ic4t0"]
+[ext_resource type="Texture2D" uid="uid://yqjmphvkc6qb" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00101.png" id="338_vkhvh"]
+[ext_resource type="Texture2D" uid="uid://0hdi81fy0hmd" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00102.png" id="339_xmw6v"]
+[ext_resource type="Texture2D" uid="uid://cyhmvyvnpb43v" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00103.png" id="340_fpcqc"]
+[ext_resource type="Texture2D" uid="uid://blymck83u6xnc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00104.png" id="341_mt5ut"]
+[ext_resource type="Texture2D" uid="uid://bchuecpuat2a1" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00105.png" id="342_q8o58"]
+[ext_resource type="Texture2D" uid="uid://bagdni161dxs3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00106.png" id="343_lsl5s"]
+[ext_resource type="Texture2D" uid="uid://bwhae0bm3l1rl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00107.png" id="344_na4l1"]
+[ext_resource type="Texture2D" uid="uid://cp744jtt0po3w" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00108.png" id="345_su6l6"]
+[ext_resource type="Texture2D" uid="uid://dnxrcwlpdwwua" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00109.png" id="346_udbih"]
+[ext_resource type="Texture2D" uid="uid://cpkho78do3nj3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00110.png" id="347_py6tu"]
+[ext_resource type="Texture2D" uid="uid://mmwoxqija24r" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00111.png" id="348_l35uj"]
+[ext_resource type="Texture2D" uid="uid://cyxqoa4uoo4jj" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00112.png" id="349_50720"]
+[ext_resource type="Texture2D" uid="uid://4dhye0e58f6a" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00113.png" id="350_yih2t"]
+[ext_resource type="Texture2D" uid="uid://cx6mxvxyncft" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00114.png" id="351_q2goo"]
+[ext_resource type="Texture2D" uid="uid://dtcrny6301oq2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00115.png" id="352_d2c4p"]
+[ext_resource type="Texture2D" uid="uid://mm250ucxws1g" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00116.png" id="353_822vb"]
+[ext_resource type="Texture2D" uid="uid://ccam5ag1llrhs" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00117.png" id="354_fiyol"]
+[ext_resource type="Texture2D" uid="uid://dnwojxjet78hd" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00118.png" id="355_bvi4n"]
+[ext_resource type="Texture2D" uid="uid://dtmbejs8tjyqd" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00119.png" id="356_8p0ao"]
+[ext_resource type="Texture2D" uid="uid://cyqprr6cdhg7p" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00120.png" id="357_sqrr6"]
+[ext_resource type="Texture2D" uid="uid://cbfqft7ppf1sn" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00121.png" id="358_yyybq"]
+[ext_resource type="Texture2D" uid="uid://csatwj5jd26vn" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00122.png" id="359_o3hkp"]
+[ext_resource type="Texture2D" uid="uid://dinkt7dj8vvtx" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00123.png" id="360_y0svg"]
+[ext_resource type="Texture2D" uid="uid://cstdvte8dx3sm" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00124.png" id="361_2rk1t"]
+[ext_resource type="Texture2D" uid="uid://cc8ttdj303ckw" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00125.png" id="362_7ftho"]
+[ext_resource type="Texture2D" uid="uid://xbehmuonsvd6" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00126.png" id="363_x8f8f"]
+[ext_resource type="Texture2D" uid="uid://b325y77rcl88h" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00127.png" id="364_qdatj"]
+[ext_resource type="Texture2D" uid="uid://dwlngv7jihkbw" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00128.png" id="365_yuckt"]
+[ext_resource type="Texture2D" uid="uid://chcfpwvuots6t" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00129.png" id="366_1pvuh"]
+[ext_resource type="Texture2D" uid="uid://s5cgw73fn3gl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00130.png" id="367_hj2yj"]
+[ext_resource type="Texture2D" uid="uid://cux2ydy1agf76" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00131.png" id="368_v1xj5"]
+[ext_resource type="Texture2D" uid="uid://l3afsb2q1idt" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00132.png" id="369_f2n2y"]
+[ext_resource type="Texture2D" uid="uid://0ujnvf1xrdw0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00133.png" id="370_yaxt3"]
+[ext_resource type="Texture2D" uid="uid://b4e8od30uj8wg" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00134.png" id="371_xnuvj"]
+[ext_resource type="Texture2D" uid="uid://btyeyccplyysa" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00135.png" id="372_e7mbk"]
+[ext_resource type="Texture2D" uid="uid://cuh6nrb6i8t7o" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00136.png" id="373_d6v20"]
+[ext_resource type="Texture2D" uid="uid://xy1l24x0yu1m" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00137.png" id="374_lcrsg"]
+[ext_resource type="Texture2D" uid="uid://bqunf4cyrqesa" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00138.png" id="375_gwkcy"]
+[ext_resource type="Texture2D" uid="uid://blurj4ag5yukl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00139.png" id="376_ykdba"]
+[ext_resource type="Texture2D" uid="uid://c7uo1vgl7qv4x" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00140.png" id="377_pclak"]
+[ext_resource type="Texture2D" uid="uid://c7wt7aifw10ae" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00141.png" id="378_klf0x"]
+[ext_resource type="Texture2D" uid="uid://bcpkijneg7nkg" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00142.png" id="379_3mpw2"]
+[ext_resource type="Texture2D" uid="uid://j0lm0urebo2d" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00143.png" id="380_hcobm"]
+[ext_resource type="Texture2D" uid="uid://bjr42eb0ma5yn" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00144.png" id="381_so72e"]
+[ext_resource type="Texture2D" uid="uid://c88dbl7fjl4x3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00145.png" id="382_ysbi7"]
+[ext_resource type="Texture2D" uid="uid://bllcacxbcgfum" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00146.png" id="383_ks4f0"]
+[ext_resource type="Texture2D" uid="uid://bvkxsqxibtr7l" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00147.png" id="384_10fpa"]
+[ext_resource type="Texture2D" uid="uid://c8i6asrime4t0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00148.png" id="385_m57o6"]
+[ext_resource type="Texture2D" uid="uid://cq20his14gkvv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00149.png" id="386_40mhj"]
+[ext_resource type="Texture2D" uid="uid://c6rn2rfsx1tmb" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00150.png" id="387_8jkkj"]
+[ext_resource type="Texture2D" uid="uid://45wlm3wybu23" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00151.png" id="388_b0067"]
+[ext_resource type="Texture2D" uid="uid://dack3ilmj832s" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00152.png" id="389_qc0wl"]
+[ext_resource type="Texture2D" uid="uid://cupfyvjmlipgm" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00153.png" id="390_r2udo"]
+[ext_resource type="Texture2D" uid="uid://b6jhimlls1e15" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00154.png" id="391_4wraw"]
+[ext_resource type="Texture2D" uid="uid://b0vtqva8ivm6s" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00155.png" id="392_p42uj"]
+[ext_resource type="Texture2D" uid="uid://bdaccpcldd82t" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00156.png" id="393_2psf6"]
+[ext_resource type="Texture2D" uid="uid://blunsqb5ry4yt" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00157.png" id="394_dl78v"]
+[ext_resource type="Texture2D" uid="uid://ddsqqnvyqyqfs" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00158.png" id="395_jsacw"]
+[ext_resource type="Texture2D" uid="uid://bedj8b810vbme" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00159.png" id="396_biseo"]
+[ext_resource type="Texture2D" uid="uid://cmakoe8h64cc4" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00160.png" id="397_2i81j"]
+[ext_resource type="Texture2D" uid="uid://bav3w3bxr1p2q" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00161.png" id="398_uhyrn"]
+[ext_resource type="Texture2D" uid="uid://bui0pow2j3h1t" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00162.png" id="399_l1dc7"]
+[ext_resource type="Texture2D" uid="uid://bcud8xqnilock" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00163.png" id="400_unga6"]
+[ext_resource type="Texture2D" uid="uid://76i34fw0wg68" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00164.png" id="401_3k4of"]
+[ext_resource type="Texture2D" uid="uid://dro8xeo1dme6n" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00165.png" id="402_damgn"]
+[ext_resource type="Texture2D" uid="uid://kptftdfvpgyc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00166.png" id="403_w77a0"]
+[ext_resource type="Texture2D" uid="uid://d4gf8l7xfm8jr" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00167.png" id="404_rkmc0"]
+[ext_resource type="Texture2D" uid="uid://mhrfkugbrdkl" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00168.png" id="405_tt8tk"]
+[ext_resource type="Texture2D" uid="uid://1t6cnnawhphv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00169.png" id="406_fj7sp"]
+[ext_resource type="Texture2D" uid="uid://bdqluxcdvumcm" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00170.png" id="407_hgtvw"]
+[ext_resource type="Texture2D" uid="uid://bbdq7una2rl6k" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00171.png" id="408_c8q0c"]
+[ext_resource type="Texture2D" uid="uid://c5co7621gjqev" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00172.png" id="409_0trjk"]
+[ext_resource type="Texture2D" uid="uid://dpu6kbh2f1e3s" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00173.png" id="410_sjuam"]
+[ext_resource type="Texture2D" uid="uid://b74g5p3cgblfv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00174.png" id="411_07pd7"]
+[ext_resource type="Texture2D" uid="uid://cjd88ui5xa2lq" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00175.png" id="412_80gag"]
+[ext_resource type="Texture2D" uid="uid://b2phrlxolp87h" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00176.png" id="413_una4n"]
+[ext_resource type="Texture2D" uid="uid://cyqdv8mpvkx10" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00177.png" id="414_cmyo5"]
+[ext_resource type="Texture2D" uid="uid://dktyska7ir5q4" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00178.png" id="415_63apg"]
+[ext_resource type="Texture2D" uid="uid://rqaiwbb2txh2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00179.png" id="416_xleps"]
+[ext_resource type="Texture2D" uid="uid://cw58q1x2pmg0y" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00180.png" id="417_uqt0g"]
+[ext_resource type="Texture2D" uid="uid://d314rgsphio2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00181.png" id="418_hdrkg"]
+[ext_resource type="Texture2D" uid="uid://dgihqovib327o" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00182.png" id="419_ffr3s"]
+[ext_resource type="Texture2D" uid="uid://bex046ptvcmbt" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00183.png" id="420_ik3um"]
+[ext_resource type="Texture2D" uid="uid://pddy25jg6bsj" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00184.png" id="421_1lyex"]
+[ext_resource type="Texture2D" uid="uid://cfmkkih1o5qfy" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00185.png" id="422_n7unp"]
+[ext_resource type="Texture2D" uid="uid://c81c0u8cwooj8" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00186.png" id="423_swcd7"]
+[ext_resource type="Texture2D" uid="uid://duhsu7w3j1e4u" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00187.png" id="424_a8ql8"]
+[ext_resource type="Texture2D" uid="uid://cn783kdpospir" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00188.png" id="425_w62tn"]
+[ext_resource type="Texture2D" uid="uid://c4miavu6aqim3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00189.png" id="426_wnusp"]
+[ext_resource type="Texture2D" uid="uid://c38e4ppcu6lhy" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00190.png" id="427_4qtpy"]
+[ext_resource type="Texture2D" uid="uid://d4bx7dnx6yvkc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00191.png" id="428_x15q5"]
+[ext_resource type="Texture2D" uid="uid://ctmhfctxoxxah" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00192.png" id="429_c672q"]
+[ext_resource type="Texture2D" uid="uid://dg6n4ratlca1v" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00193.png" id="430_qfofr"]
+[ext_resource type="Texture2D" uid="uid://bc6cvpx2rsem8" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00194.png" id="431_shhb2"]
+[ext_resource type="Texture2D" uid="uid://dg2gm8nbm48h2" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00195.png" id="432_eitg3"]
+[ext_resource type="Texture2D" uid="uid://c4xdxaveof7yi" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00196.png" id="433_08y42"]
+[ext_resource type="Texture2D" uid="uid://dshwyex4d21j4" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00197.png" id="434_0cw8p"]
+[ext_resource type="Texture2D" uid="uid://dwj0xoh758ed5" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00198.png" id="435_x3mky"]
+[ext_resource type="Texture2D" uid="uid://cm5sekqjkg8qv" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00199.png" id="436_l3k7f"]
+[ext_resource type="Texture2D" uid="uid://bt6o4g6eck7p0" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00200.png" id="437_a65pp"]
+[ext_resource type="Texture2D" uid="uid://b0kxa6hesktqc" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00201.png" id="438_52vnp"]
+[ext_resource type="Texture2D" uid="uid://dxd5s4fefi1gm" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00202.png" id="439_xgjt7"]
+[ext_resource type="Texture2D" uid="uid://b5amse2ogidhd" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00203.png" id="440_meapr"]
+[ext_resource type="Texture2D" uid="uid://bg32woskt7h1g" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00204.png" id="441_78p5i"]
+[ext_resource type="Texture2D" uid="uid://bsyhnot8gt5s3" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00205.png" id="442_beifo"]
+[ext_resource type="Texture2D" uid="uid://ck7q5vegyxsll" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00206.png" id="443_eh1ky"]
+[ext_resource type="Texture2D" uid="uid://c6o7yibxogs4e" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00207.png" id="444_qg38y"]
+[ext_resource type="Texture2D" uid="uid://bvu77dpcdeipx" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00208.png" id="445_rm3vl"]
+[ext_resource type="Texture2D" uid="uid://c02uohotfek2i" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00209.png" id="446_h8k4d"]
+[ext_resource type="Texture2D" uid="uid://7h6w7jy07rsj" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00210.png" id="447_q2li4"]
+[ext_resource type="Texture2D" uid="uid://btlldywjc3m3x" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00211.png" id="448_dhtbr"]
+[ext_resource type="Texture2D" uid="uid://dmc532xqfv3su" path="res://resources/enemies/zombie/zombie_walk_noarm/zombie_walkver2_00212.png" id="449_bolmt"]
+[ext_resource type="Texture2D" uid="uid://bj65kf6na165b" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00001.png" id="450_bio3s"]
+[ext_resource type="Texture2D" uid="uid://dkvgqwdwaol3y" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00002.png" id="451_8x501"]
+[ext_resource type="Texture2D" uid="uid://ddo52xa1h8pfy" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00003.png" id="452_f3a8f"]
+[ext_resource type="Texture2D" uid="uid://bidi1jx1c4gpr" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00004.png" id="453_e7832"]
+[ext_resource type="Texture2D" uid="uid://bi0ij0dfqlm7u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00005.png" id="454_mq723"]
+[ext_resource type="Texture2D" uid="uid://cqps8pjsy4r4a" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00006.png" id="455_ud8pu"]
+[ext_resource type="Texture2D" uid="uid://478j3lg5adep" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00007.png" id="456_lq56m"]
+[ext_resource type="Texture2D" uid="uid://gfklogps1v3c" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00008.png" id="457_lokvc"]
+[ext_resource type="Texture2D" uid="uid://0a6s1ogj4uhp" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00009.png" id="458_3gbfv"]
+[ext_resource type="Texture2D" uid="uid://3em2ky676tic" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00010.png" id="459_amw87"]
+[ext_resource type="Texture2D" uid="uid://bg0p4e6orqgir" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00011.png" id="460_45lne"]
+[ext_resource type="Texture2D" uid="uid://baf0khqstjbwa" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00012.png" id="461_j0273"]
+[ext_resource type="Texture2D" uid="uid://d3kqap8xvq6f" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00013.png" id="462_fnb5b"]
+[ext_resource type="Texture2D" uid="uid://b7ivamwndm5q5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00014.png" id="463_o8161"]
+[ext_resource type="Texture2D" uid="uid://03hsmxrxmtwt" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00015.png" id="464_u5j32"]
+[ext_resource type="Texture2D" uid="uid://c5twbatsybwpa" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00016.png" id="465_6kra6"]
+[ext_resource type="Texture2D" uid="uid://yfhb0himjeep" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00017.png" id="466_k2h5a"]
+[ext_resource type="Texture2D" uid="uid://bsn5pdjrrslri" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00018.png" id="467_qxf7k"]
+[ext_resource type="Texture2D" uid="uid://g5tia4pchbd" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00019.png" id="468_xmc8k"]
+[ext_resource type="Texture2D" uid="uid://dwb7lt0372dqv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00020.png" id="469_iuq8d"]
+[ext_resource type="Texture2D" uid="uid://dyf5agjs8rqng" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00021.png" id="470_ibwnx"]
+[ext_resource type="Texture2D" uid="uid://dlv6ed254muny" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00022.png" id="471_msx1s"]
+[ext_resource type="Texture2D" uid="uid://cofpo8iyi87wl" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00023.png" id="472_4grwq"]
+[ext_resource type="Texture2D" uid="uid://c4mue5kb5tnq3" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00024.png" id="473_dlnbi"]
+[ext_resource type="Texture2D" uid="uid://bomni3m115q1e" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00025.png" id="474_lsnl1"]
+[ext_resource type="Texture2D" uid="uid://crcyej4v6vl0i" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00026.png" id="475_nq11v"]
+[ext_resource type="Texture2D" uid="uid://pgxsyf3wq5vv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00027.png" id="476_j308u"]
+[ext_resource type="Texture2D" uid="uid://b3sxts1igi6db" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00028.png" id="477_b30ox"]
+[ext_resource type="Texture2D" uid="uid://42qaosuy1on5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00029.png" id="478_fidee"]
+[ext_resource type="Texture2D" uid="uid://dpsitbggis618" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00030.png" id="479_c6fmf"]
+[ext_resource type="Texture2D" uid="uid://mrbs1d37dsjb" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00031.png" id="480_cgm11"]
+[ext_resource type="Texture2D" uid="uid://5i34a0ygabvv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00032.png" id="481_6ih5d"]
+[ext_resource type="Texture2D" uid="uid://bhnv6g75p02if" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00033.png" id="482_4h6g7"]
+[ext_resource type="Texture2D" uid="uid://d3c3vpo0j1q12" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00034.png" id="483_vuc52"]
+[ext_resource type="Texture2D" uid="uid://c0bx6uvrg5hwv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00035.png" id="484_3aww6"]
+[ext_resource type="Texture2D" uid="uid://dan4xbtaia2it" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00036.png" id="485_xkllr"]
+[ext_resource type="Texture2D" uid="uid://bjf5wff4mfds5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00037.png" id="486_eicpo"]
+[ext_resource type="Texture2D" uid="uid://c4yonva4ud3i0" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00038.png" id="487_3l70b"]
+[ext_resource type="Texture2D" uid="uid://bh2wwy1vjkrtn" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00039.png" id="488_fm7qu"]
+[ext_resource type="Texture2D" uid="uid://ogbcp5cedx1r" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00040.png" id="489_8ng61"]
+[ext_resource type="Texture2D" uid="uid://bqkadfc13atqo" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00041.png" id="490_iicgw"]
+[ext_resource type="Texture2D" uid="uid://brcsjk58tqrho" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00042.png" id="491_gvrce"]
+[ext_resource type="Texture2D" uid="uid://bmspobattw3t" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00043.png" id="492_ukpq5"]
+[ext_resource type="Texture2D" uid="uid://c2ga7pqlm36gt" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00044.png" id="493_gdblc"]
+[ext_resource type="Texture2D" uid="uid://bbtuyoo8ju7jf" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00045.png" id="494_ki38t"]
+[ext_resource type="Texture2D" uid="uid://c4370xqu21ibi" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00046.png" id="495_gnu48"]
+[ext_resource type="Texture2D" uid="uid://dkce1ghr2aw64" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00047.png" id="496_30pu1"]
+[ext_resource type="Texture2D" uid="uid://duakhcwhpiyoe" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00048.png" id="497_dsoxp"]
+[ext_resource type="Texture2D" uid="uid://bdywm1arqs7f8" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00049.png" id="498_mjp8g"]
+[ext_resource type="Texture2D" uid="uid://jq0vnt34kufi" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00050.png" id="499_v8oip"]
+[ext_resource type="Texture2D" uid="uid://bx6euqnpn0xnt" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00051.png" id="500_2o476"]
+[ext_resource type="Texture2D" uid="uid://b5bnvds0r7xub" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00052.png" id="501_4awfp"]
+[ext_resource type="Texture2D" uid="uid://b5oavwbkh6wud" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00053.png" id="502_6457k"]
+[ext_resource type="Texture2D" uid="uid://cm7lbpa26ky88" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00054.png" id="503_8ohul"]
+[ext_resource type="Texture2D" uid="uid://dqtsq5fxma4yi" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00055.png" id="504_5ct6t"]
+[ext_resource type="Texture2D" uid="uid://e28okumqcp6c" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00056.png" id="505_n68ek"]
+[ext_resource type="Texture2D" uid="uid://b3fms71gykmcx" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00057.png" id="506_jegyp"]
+[ext_resource type="Texture2D" uid="uid://bdv46qh256vu7" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00058.png" id="507_uotmv"]
+[ext_resource type="Texture2D" uid="uid://c73abx6uvr0ie" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00059.png" id="508_hletl"]
+[ext_resource type="Texture2D" uid="uid://bm1uvsxrrmsqn" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00060.png" id="509_h5mrm"]
+[ext_resource type="Texture2D" uid="uid://bfutdk4qu4h3p" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00061.png" id="510_7nja1"]
+[ext_resource type="Texture2D" uid="uid://y463ux8no7wa" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00062.png" id="511_trkep"]
+[ext_resource type="Texture2D" uid="uid://vsdgbl62hc82" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00063.png" id="512_ehas8"]
+[ext_resource type="Texture2D" uid="uid://6xim110oeven" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00064.png" id="513_mltr0"]
+[ext_resource type="Texture2D" uid="uid://b38qj1fajgdav" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00065.png" id="514_apyv1"]
+[ext_resource type="Texture2D" uid="uid://dmixslqlmeam1" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00066.png" id="515_06g5u"]
+[ext_resource type="Texture2D" uid="uid://c2mwj87v8jvjy" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00067.png" id="516_uoe5f"]
+[ext_resource type="Texture2D" uid="uid://cd4cv1el4rtvq" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00068.png" id="517_dcqr1"]
+[ext_resource type="Texture2D" uid="uid://damow4dh00pmm" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00069.png" id="518_57ata"]
+[ext_resource type="Texture2D" uid="uid://c0vhbj6mky2fv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00070.png" id="519_8rdcd"]
+[ext_resource type="Texture2D" uid="uid://oi51rnfkvcug" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00071.png" id="520_fb2qk"]
+[ext_resource type="Texture2D" uid="uid://ctl5wqeiwoln1" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00072.png" id="521_ixvpc"]
+[ext_resource type="Texture2D" uid="uid://c2bswnhpra5rn" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00073.png" id="522_07xur"]
+[ext_resource type="Texture2D" uid="uid://dspquveqap8nh" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00074.png" id="523_vnmtj"]
+[ext_resource type="Texture2D" uid="uid://d0afuuhahx12u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00075.png" id="524_llgn1"]
+[ext_resource type="Texture2D" uid="uid://buah2w0ydaxhk" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00076.png" id="525_yl7rn"]
+[ext_resource type="Texture2D" uid="uid://7b8blf424vhp" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00077.png" id="526_iilnj"]
+[ext_resource type="Texture2D" uid="uid://l72inpetwd81" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00078.png" id="527_2fuvy"]
+[ext_resource type="Texture2D" uid="uid://c6qlu31mjnyhn" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00079.png" id="528_wmodh"]
+[ext_resource type="Texture2D" uid="uid://chi6xhy8euxb0" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00080.png" id="529_18dsr"]
+[ext_resource type="Texture2D" uid="uid://b3vhiujqxetk4" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00081.png" id="530_iji3e"]
+[ext_resource type="Texture2D" uid="uid://h7al4mn0lfie" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00082.png" id="531_3u38e"]
+[ext_resource type="Texture2D" uid="uid://c0e36lksj7mmk" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00083.png" id="532_hh6mi"]
+[ext_resource type="Texture2D" uid="uid://cuq3ihtkopies" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00084.png" id="533_tketp"]
+[ext_resource type="Texture2D" uid="uid://cj4ud0dxfop3p" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00085.png" id="534_vrcem"]
+[ext_resource type="Texture2D" uid="uid://cylhlri2pf711" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00086.png" id="535_rwtmg"]
+[ext_resource type="Texture2D" uid="uid://0qvpilx0pvrl" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00087.png" id="536_jse8w"]
+[ext_resource type="Texture2D" uid="uid://ufdl3btjjtug" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00088.png" id="537_dcv3b"]
+[ext_resource type="Texture2D" uid="uid://bbymclg18mqf7" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00089.png" id="538_u8upk"]
+[ext_resource type="Texture2D" uid="uid://ebqnyjsl2yh6" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00090.png" id="539_ljyva"]
+[ext_resource type="Texture2D" uid="uid://c4120c3vaj2ri" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00091.png" id="540_ok1ij"]
+[ext_resource type="Texture2D" uid="uid://n7hjbdpgno8i" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00092.png" id="541_qnvov"]
+[ext_resource type="Texture2D" uid="uid://clfvmrjirj1em" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00093.png" id="542_iibq6"]
+[ext_resource type="Texture2D" uid="uid://c7cgvgvvomyqg" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00094.png" id="543_3qu5w"]
+[ext_resource type="Texture2D" uid="uid://bimx6pk5r4k4d" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00095.png" id="544_5bprt"]
+[ext_resource type="Texture2D" uid="uid://b5287wxhe8n5u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00096.png" id="545_ok138"]
+[ext_resource type="Texture2D" uid="uid://ckeemst4mmart" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00097.png" id="546_uy7p8"]
+[ext_resource type="Texture2D" uid="uid://dc7mdpcx2wm18" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00098.png" id="547_b5n86"]
+[ext_resource type="Texture2D" uid="uid://bf74npsbbd46g" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00099.png" id="548_6e4ye"]
+[ext_resource type="Texture2D" uid="uid://5wulhtrqtf2l" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00100.png" id="549_84d4b"]
+[ext_resource type="Texture2D" uid="uid://br4ti37hkobc0" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00101.png" id="550_oapks"]
+[ext_resource type="Texture2D" uid="uid://bbcsqmukleiba" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00102.png" id="551_riijg"]
+[ext_resource type="Texture2D" uid="uid://x3qvjygdi2bd" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00103.png" id="552_ua2fx"]
+[ext_resource type="Texture2D" uid="uid://ho4ipnsnoxt3" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00104.png" id="553_5x11x"]
+[ext_resource type="Texture2D" uid="uid://cl3djmfhp8ewk" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00105.png" id="554_bga00"]
+[ext_resource type="Texture2D" uid="uid://brlwpf3jmp12t" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00106.png" id="555_y68uo"]
+[ext_resource type="Texture2D" uid="uid://coepfytj0wsk2" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00107.png" id="556_kgw2g"]
+[ext_resource type="Texture2D" uid="uid://ddxluh72kqc4s" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00108.png" id="557_nh3tp"]
+[ext_resource type="Texture2D" uid="uid://b22f21dim0c42" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00109.png" id="558_1tru7"]
+[ext_resource type="Texture2D" uid="uid://crestc50yly51" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00110.png" id="559_m8k72"]
+[ext_resource type="Texture2D" uid="uid://dl2g6xo8lhgr5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00111.png" id="560_36m2c"]
+[ext_resource type="Texture2D" uid="uid://cvtp664j510aq" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00112.png" id="561_lqk22"]
+[ext_resource type="Texture2D" uid="uid://cul654qui7xi5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00113.png" id="562_tfpjg"]
+[ext_resource type="Texture2D" uid="uid://bihv0mam4xm5j" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00114.png" id="563_0w7hg"]
+[ext_resource type="Texture2D" uid="uid://cp7ee3wupsm07" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00115.png" id="564_pbaqa"]
+[ext_resource type="Texture2D" uid="uid://rfopqmd7iw61" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00116.png" id="565_t3134"]
+[ext_resource type="Texture2D" uid="uid://cchsmrnwo8trw" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00117.png" id="566_s720w"]
+[ext_resource type="Texture2D" uid="uid://1h5djhr5w2iv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00118.png" id="567_qvbw4"]
+[ext_resource type="Texture2D" uid="uid://d4gvokrgt581u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00119.png" id="568_dh83l"]
+[ext_resource type="Texture2D" uid="uid://1wfgput10fyq" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00120.png" id="569_nk87f"]
+[ext_resource type="Texture2D" uid="uid://by41btob31emg" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00121.png" id="570_04bxp"]
+[ext_resource type="Texture2D" uid="uid://cpunrhln0wl47" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00122.png" id="571_mwbsl"]
+[ext_resource type="Texture2D" uid="uid://05nndoam8e5w" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00123.png" id="572_wtp6x"]
+[ext_resource type="Texture2D" uid="uid://c1oq72pti3305" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00124.png" id="573_skfqr"]
+[ext_resource type="Texture2D" uid="uid://byefc206fpfks" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00125.png" id="574_7utyg"]
+[ext_resource type="Texture2D" uid="uid://7vaprhgi62e6" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00126.png" id="575_31wfg"]
+[ext_resource type="Texture2D" uid="uid://cmk23ljuagpdw" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00127.png" id="576_6memd"]
+[ext_resource type="Texture2D" uid="uid://bx6hcdh0qnogq" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00128.png" id="577_ax6n8"]
+[ext_resource type="Texture2D" uid="uid://c4ai4thopcj1u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00129.png" id="578_b0lrq"]
+[ext_resource type="Texture2D" uid="uid://bwhywhswkvb4a" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00130.png" id="579_o1rgd"]
+[ext_resource type="Texture2D" uid="uid://dv1f2tww8xm" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00131.png" id="580_5o3r8"]
+[ext_resource type="Texture2D" uid="uid://csx5gy344146l" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00132.png" id="581_cxfw7"]
+[ext_resource type="Texture2D" uid="uid://t6wv5loo88t7" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00133.png" id="582_jwmc6"]
+[ext_resource type="Texture2D" uid="uid://b4xcx5kh2bdjk" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00134.png" id="583_lpt5c"]
+[ext_resource type="Texture2D" uid="uid://bv12j0nf6pe2n" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00135.png" id="584_ldsrj"]
+[ext_resource type="Texture2D" uid="uid://d25g6oahemgn5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00136.png" id="585_xpchg"]
+[ext_resource type="Texture2D" uid="uid://bhs3d4d2vtxyy" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00137.png" id="586_ji3rw"]
+[ext_resource type="Texture2D" uid="uid://crjwi8u6b1ybb" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00138.png" id="587_kb6qs"]
+[ext_resource type="Texture2D" uid="uid://d226n0mhavidy" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00139.png" id="588_ti717"]
+[ext_resource type="Texture2D" uid="uid://bqdx14fugxbc5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00140.png" id="589_udnt8"]
+[ext_resource type="Texture2D" uid="uid://i0af8w0l7yj5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00141.png" id="590_iylyk"]
+[ext_resource type="Texture2D" uid="uid://c5q5nt5b6311q" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00142.png" id="591_jqjfp"]
+[ext_resource type="Texture2D" uid="uid://co4g5uohphibj" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00143.png" id="592_wgdo8"]
+[ext_resource type="Texture2D" uid="uid://cdb76a263tfs5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00144.png" id="593_ba3qs"]
+[ext_resource type="Texture2D" uid="uid://cmt6xbth810lv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00145.png" id="594_6q5ni"]
+[ext_resource type="Texture2D" uid="uid://cbw4wdeim0d4p" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00146.png" id="595_87nb7"]
+[ext_resource type="Texture2D" uid="uid://damxxqhdm2868" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00147.png" id="596_ik7em"]
+[ext_resource type="Texture2D" uid="uid://boy6flwhndby" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00148.png" id="597_akpj7"]
+[ext_resource type="Texture2D" uid="uid://cgr61il7tj0jw" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00149.png" id="598_kl5w7"]
+[ext_resource type="Texture2D" uid="uid://dhl0hgb0mntvq" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00150.png" id="599_ecbff"]
+[ext_resource type="Texture2D" uid="uid://dtydxn5wn6th4" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00151.png" id="600_xp44t"]
+[ext_resource type="Texture2D" uid="uid://dx3rot2m12cmh" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00152.png" id="601_u0eqt"]
+[ext_resource type="Texture2D" uid="uid://cyvvvchn6fuo6" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00153.png" id="602_133n0"]
+[ext_resource type="Texture2D" uid="uid://b2iad81iv0qda" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00154.png" id="603_2w1xd"]
+[ext_resource type="Texture2D" uid="uid://dxisel4d6h63v" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00155.png" id="604_k7ber"]
+[ext_resource type="Texture2D" uid="uid://3u8slrsmqrlf" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00156.png" id="605_2kgq1"]
+[ext_resource type="Texture2D" uid="uid://cv7di6oag380r" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00157.png" id="606_cs4y3"]
+[ext_resource type="Texture2D" uid="uid://47pydvarjhlb" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00158.png" id="607_vorkp"]
+[ext_resource type="Texture2D" uid="uid://c4tcdjghlsvio" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00159.png" id="608_mprnv"]
+[ext_resource type="Texture2D" uid="uid://sxt0lvq3cjua" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00160.png" id="609_kdntq"]
+[ext_resource type="Texture2D" uid="uid://d3sswsgpqrvru" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00161.png" id="610_v2n03"]
+[ext_resource type="Texture2D" uid="uid://dmsih23lid71j" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00162.png" id="611_voig7"]
+[ext_resource type="Texture2D" uid="uid://dkqc1purich1r" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00163.png" id="612_hq2m5"]
+[ext_resource type="Texture2D" uid="uid://ddmnhvf3sk01j" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00164.png" id="613_6r6gg"]
+[ext_resource type="Texture2D" uid="uid://by8clnnkbx76q" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00165.png" id="614_d5312"]
+[ext_resource type="Texture2D" uid="uid://vekh0svir0ab" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00166.png" id="615_dsyl4"]
+[ext_resource type="Texture2D" uid="uid://dvbm1w55x7yae" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00167.png" id="616_4l1op"]
+[ext_resource type="Texture2D" uid="uid://oqkvgq0cby83" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00168.png" id="617_4md2a"]
+[ext_resource type="Texture2D" uid="uid://wl77jytw2o4h" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00169.png" id="618_ur81v"]
+[ext_resource type="Texture2D" uid="uid://c5kf3s0jcmfri" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00170.png" id="619_36pce"]
+[ext_resource type="Texture2D" uid="uid://ciniao3kc73m3" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00171.png" id="620_8ek3p"]
+[ext_resource type="Texture2D" uid="uid://c7kppb4mk5ink" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00172.png" id="621_6476i"]
+[ext_resource type="Texture2D" uid="uid://dsl0uk17hswr1" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00173.png" id="622_ad4tq"]
+[ext_resource type="Texture2D" uid="uid://cund0x51lxwyx" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00174.png" id="623_i1hvk"]
+[ext_resource type="Texture2D" uid="uid://btbguqjv7a578" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00175.png" id="624_8v2go"]
+[ext_resource type="Texture2D" uid="uid://d05hg5ahamtxl" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00176.png" id="625_u7m75"]
+[ext_resource type="Texture2D" uid="uid://bsvg7btnaoe3v" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00177.png" id="626_fd7o8"]
+[ext_resource type="Texture2D" uid="uid://cta8g66vsrmtl" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00178.png" id="627_kykgw"]
+[ext_resource type="Texture2D" uid="uid://u1msfclelsj2" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00179.png" id="628_1sl0t"]
+[ext_resource type="Texture2D" uid="uid://dmdi6ed27paun" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00180.png" id="629_vmox0"]
+[ext_resource type="Texture2D" uid="uid://cikrkftwul206" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00181.png" id="630_85oix"]
+[ext_resource type="Texture2D" uid="uid://d1xfiog7e1fhc" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00182.png" id="631_8eo6c"]
+[ext_resource type="Texture2D" uid="uid://b0cjt3k6jdt8f" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00183.png" id="632_txa35"]
+[ext_resource type="Texture2D" uid="uid://bhv6wek4sa0c8" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00184.png" id="633_jqtlk"]
+[ext_resource type="Texture2D" uid="uid://27f6rxmjgq24" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00185.png" id="634_brms4"]
+[ext_resource type="Texture2D" uid="uid://bw7u06nrg5tmx" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00186.png" id="635_5v411"]
+[ext_resource type="Texture2D" uid="uid://do54xbmehef01" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00187.png" id="636_d3gts"]
+[ext_resource type="Texture2D" uid="uid://cs6owe3olmp3j" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00188.png" id="637_uhtyy"]
+[ext_resource type="Texture2D" uid="uid://b7h86bakwe327" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00189.png" id="638_00214"]
+[ext_resource type="Texture2D" uid="uid://cwlws0xv77n0q" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00190.png" id="639_7blmk"]
+[ext_resource type="Texture2D" uid="uid://4ut5mevjf6sb" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00191.png" id="640_j7qai"]
+[ext_resource type="Texture2D" uid="uid://4yourc215ypf" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00192.png" id="641_1h4wd"]
+[ext_resource type="Texture2D" uid="uid://7dhty6rxhr66" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00193.png" id="642_oomf5"]
+[ext_resource type="Texture2D" uid="uid://dq4gl5fbjuq6s" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00194.png" id="643_80wh4"]
+[ext_resource type="Texture2D" uid="uid://dbx8vwktl7j7a" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00195.png" id="644_6wsou"]
+[ext_resource type="Texture2D" uid="uid://b3af0ypfpf5y5" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00196.png" id="645_2u1pu"]
+[ext_resource type="Texture2D" uid="uid://bdbssowb4t01b" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00197.png" id="646_0hsxp"]
+[ext_resource type="Texture2D" uid="uid://rge6t5b73inv" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00198.png" id="647_ljcco"]
+[ext_resource type="Texture2D" uid="uid://bm6h1ipjdnwpd" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00199.png" id="648_whc8l"]
+[ext_resource type="Texture2D" uid="uid://d3bdemkg03klh" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00200.png" id="649_qgwr0"]
+[ext_resource type="Texture2D" uid="uid://dkxng160q60jk" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00201.png" id="650_eir5j"]
+[ext_resource type="Texture2D" uid="uid://b4ibx5lghmxf1" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00202.png" id="651_bxkto"]
+[ext_resource type="Texture2D" uid="uid://ctey67mqinng8" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00203.png" id="652_yv0oy"]
+[ext_resource type="Texture2D" uid="uid://dlchescs5yv2l" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00204.png" id="653_1su60"]
+[ext_resource type="Texture2D" uid="uid://dx0tcghoqi58x" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00205.png" id="654_q7hog"]
+[ext_resource type="Texture2D" uid="uid://cd6xm6q8o360s" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00206.png" id="655_ouhfn"]
+[ext_resource type="Texture2D" uid="uid://bj576sqs3kf0d" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00207.png" id="656_fumqt"]
+[ext_resource type="Texture2D" uid="uid://xid1c0jukkxm" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00208.png" id="657_0vycf"]
+[ext_resource type="Texture2D" uid="uid://5jl1rquphpec" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00209.png" id="658_ixbmh"]
+[ext_resource type="Texture2D" uid="uid://outhjvymbv33" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00210.png" id="659_qw55q"]
+[ext_resource type="Texture2D" uid="uid://ddqcln7yg0d50" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00211.png" id="660_j0hw1"]
+[ext_resource type="Texture2D" uid="uid://0xlyg2t0e73u" path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00212.png" id="661_0j2es"]
+
+[resource]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"New Anim",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hjdbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_i6lmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pp0bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ro71m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6uc3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_inyx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rod06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_dqin4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6rcn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_6ea6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dnkk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_p8th5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vfg6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_q2u2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_yobqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_872c2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mukxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xwha0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_dsros")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_0dn8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_1lklo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_h10ic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_jrobo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6n8wy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2lh0r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_384ee")
+}],
+"loop": false,
+"name": &"death",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_c10f0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4jtiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_f0ne5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_bb6h8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_h4ja7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_v2dhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_qypt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_johud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bgodr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_e6ytn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gdf7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_g8qm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_fkt31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_1nmf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_47eeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_lfxfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_eai5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ihefa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_upuqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_d282x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_w2rp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_3a6a2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_qxxy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_d31mb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_tnaeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_0d0om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_a63xf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_riv7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_ba4w8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_yc3jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_psc2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_2co17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_af0v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_dxrbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_of82k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_nmn5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_460cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_501x5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_xxtiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_lmmr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_vkj2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_5cjhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_4hbpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_wd6di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_ssihu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_jhk3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_iwspo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_08oir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_24na0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_6pjrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_bbpqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_5jgrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_levys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_223iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_fqkpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_qcvv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_kugb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_r4hps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_o62cs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_v50mt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_qp1of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_xqw04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_pok1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_3dwo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_uojg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_abu0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_asma2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_2kpen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_jjvhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_v1j0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_ihdut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_cjelo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_7aue3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_dtios")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_2hx3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_2dal0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_k22rh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_8favy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_1arqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_qf1da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_waccb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_vhipj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_1yuwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_6uodw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_kimea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_0hm5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_mh4j0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_xmqga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_3o1mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_hc1jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_h6fm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_hbofc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_lqixj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_wa1gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_vem3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_vfxsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_af7ev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_tay0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_5i3b0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_0ydni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_iwy0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_2i6od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_0ufwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_cpe6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_252ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_f3g2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_5h8hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_egh3f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_hatvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_omo7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_iypm8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_qttm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_017ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_tilg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_0hgmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_vi163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_xedxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_qugq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_tibwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_13nbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_lor2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_u2hev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_sekq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_sc0w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_gun6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_vdwdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_bchlt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_ocv4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_w7j6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_irp1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_rbr50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_u2kwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_mapcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_digcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_vrxac")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_nj1uu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_rvvvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_481yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_h1773")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_fh4n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_xcd65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_78pvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_6h4m7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_s8ix8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_co4vx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_vdrle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_pevx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_s7vwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_vwjt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_ak7vp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_y50li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_fugui")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_18fcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_b203v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_6rdmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_ptxkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_gtpsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_6pjxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_k76fj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_dir06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_byydr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_bujq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_b4wsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_08o6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_md48u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_c1abf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_0ro5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_h0syj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_0pdrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_l0ael")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_nvs0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_iawj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_lg5mg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_68hdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_g6byg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_fgrmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_1opao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_jm4eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_lbjnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_o5ymb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_smilp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_plwxu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_rv4gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_mb6x8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_r8no4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_7l0px")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_61s83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_y6j2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_ovsul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_5qsyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_lbaar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_2bj1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_c761d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_m5jxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_7dn4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_do0yk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_hjnvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_rjmit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_yo6ng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_dvdk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_jv5m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_06t5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_m8v6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_a2exb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_w5bqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_hevbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_gc0s3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_ujery")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_vej52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_xd81k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_huxyt")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("238_n5hrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_rd5m1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_slgb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_npubt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_fxrwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_xr2jl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_ui64l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_yxjfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_lckwk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_hfjrl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_fnhic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_x32oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_hh1au")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_4ruy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_qhl5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_3h5ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_j372d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_23rph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_dn7lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_2k1yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_a63sj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_imvja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_db7yf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_gfr1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_3vhr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_domr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_t1hjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_2khny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_28f85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_kuu2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_j6cml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_d6idg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_qc2mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_b0en8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_67e1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_0ayn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_lqmfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_ckqom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_11sub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_tju1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_alud8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_2dl08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_8l4em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_0mue2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_7heq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_xp6at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_8xcv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_hwa7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_ieafr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_1d7hs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_cjgpe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_v6sri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_ogjfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_ecdb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_b0frt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_fkh4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_nqe2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_ow1qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_vdhhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_qstoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_fiow5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_c5q3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_i8nih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_dp00l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_c6jp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_qyut5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_fxqlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_gb8fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_o2fw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_amivk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_l0wya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_23mvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_vya63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_1acyb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_lela7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_0y6i6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_dje0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_l73w4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_2f86i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_dshic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_s27cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_kmbqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_vn4rr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_cvi54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_h65r4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_3ps3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_8aqx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_i8y60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_2eoks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_pyi02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_fllqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_5ah1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_74ip3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_e3ipb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_tpdm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_7358n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_m8e2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_uxd3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_qapt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_ic4t0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_vkhvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_xmw6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_fpcqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_mt5ut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_q8o58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_lsl5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_na4l1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_su6l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_udbih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_py6tu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_l35uj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_50720")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_yih2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_q2goo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_d2c4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_822vb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_fiyol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_bvi4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_8p0ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_sqrr6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_yyybq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_o3hkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_y0svg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_2rk1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_7ftho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_x8f8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_qdatj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_yuckt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_1pvuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_hj2yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_v1xj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_f2n2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_yaxt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_xnuvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_e7mbk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_d6v20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_lcrsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_gwkcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_ykdba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_pclak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_klf0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_3mpw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_hcobm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_so72e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_ysbi7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_ks4f0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_10fpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_m57o6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_40mhj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_8jkkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_b0067")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_qc0wl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_r2udo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_4wraw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_p42uj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_2psf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_dl78v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_jsacw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_biseo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_2i81j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_uhyrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_l1dc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_unga6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_3k4of")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_damgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_w77a0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_rkmc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_tt8tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_fj7sp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_hgtvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_c8q0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_0trjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_sjuam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_07pd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_80gag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_una4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_cmyo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_63apg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_xleps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_uqt0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_hdrkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_ffr3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_ik3um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_1lyex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_n7unp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_swcd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_a8ql8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_w62tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_wnusp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_4qtpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_x15q5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_c672q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_qfofr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_shhb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_eitg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_08y42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_0cw8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_x3mky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_l3k7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_a65pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_52vnp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_xgjt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_meapr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_78p5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_beifo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_eh1ky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_qg38y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_rm3vl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_h8k4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_q2li4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_dhtbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_bolmt")
+}],
+"loop": true,
+"name": &"walk_noarm",
+"speed": 30.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("450_bio3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_8x501")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_f3a8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_e7832")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_mq723")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_ud8pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_lq56m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_lokvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_3gbfv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_amw87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_45lne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_j0273")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_fnb5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_o8161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_u5j32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_6kra6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_k2h5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_qxf7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_xmc8k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_iuq8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_ibwnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_msx1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_4grwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_dlnbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_lsnl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_nq11v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_j308u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_b30ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_fidee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_c6fmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_cgm11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_6ih5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_4h6g7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_vuc52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_3aww6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_xkllr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_eicpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_3l70b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_fm7qu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_8ng61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_iicgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_gvrce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_ukpq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_gdblc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_ki38t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_gnu48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_30pu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_dsoxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_mjp8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_v8oip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_2o476")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_4awfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_6457k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_8ohul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_5ct6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_n68ek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_jegyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_uotmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_hletl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_h5mrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_7nja1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_trkep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_ehas8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_mltr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_apyv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_06g5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_uoe5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_dcqr1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_57ata")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_8rdcd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_fb2qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_ixvpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_07xur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_vnmtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_llgn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_yl7rn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("526_iilnj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_2fuvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_wmodh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_18dsr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_iji3e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_3u38e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_hh6mi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_tketp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_vrcem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_rwtmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_jse8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_dcv3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_u8upk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_ljyva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("540_ok1ij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_qnvov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_iibq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("543_3qu5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_5bprt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_ok138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_uy7p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_b5n86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_6e4ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_84d4b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_oapks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_riijg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("552_ua2fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_5x11x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_bga00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("555_y68uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("556_kgw2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("557_nh3tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("558_1tru7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("559_m8k72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("560_36m2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("561_lqk22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("562_tfpjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("563_0w7hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("564_pbaqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("565_t3134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("566_s720w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("567_qvbw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("568_dh83l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("569_nk87f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("570_04bxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("571_mwbsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("572_wtp6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("573_skfqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("574_7utyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("575_31wfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("576_6memd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("577_ax6n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("578_b0lrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("579_o1rgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("580_5o3r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("581_cxfw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("582_jwmc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("583_lpt5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("584_ldsrj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("585_xpchg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("586_ji3rw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("587_kb6qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("588_ti717")
+}, {
+"duration": 1.0,
+"texture": ExtResource("589_udnt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("590_iylyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("591_jqjfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("592_wgdo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("593_ba3qs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("594_6q5ni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("595_87nb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("596_ik7em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("597_akpj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("598_kl5w7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("599_ecbff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("600_xp44t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("601_u0eqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("602_133n0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("603_2w1xd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("604_k7ber")
+}, {
+"duration": 1.0,
+"texture": ExtResource("605_2kgq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("606_cs4y3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("607_vorkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("608_mprnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("609_kdntq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("610_v2n03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("611_voig7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("612_hq2m5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("613_6r6gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("614_d5312")
+}, {
+"duration": 1.0,
+"texture": ExtResource("615_dsyl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("616_4l1op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("617_4md2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("618_ur81v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("619_36pce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("620_8ek3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("621_6476i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("622_ad4tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("623_i1hvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("624_8v2go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("625_u7m75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("626_fd7o8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("627_kykgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("628_1sl0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("629_vmox0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("630_85oix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("631_8eo6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("632_txa35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("633_jqtlk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("634_brms4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("635_5v411")
+}, {
+"duration": 1.0,
+"texture": ExtResource("636_d3gts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("637_uhtyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("638_00214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("639_7blmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("640_j7qai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("641_1h4wd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("642_oomf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("643_80wh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("644_6wsou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("645_2u1pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("646_0hsxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("647_ljcco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("648_whc8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("649_qgwr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("650_eir5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("651_bxkto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("652_yv0oy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("653_1su60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("654_q7hog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("655_ouhfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("656_fumqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("657_0vycf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("658_ixbmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("659_qw55q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("660_j0hw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("661_0j2es")
+}],
+"loop": false,
+"name": &"walk_nohead",
+"speed": 30.0
+}]
