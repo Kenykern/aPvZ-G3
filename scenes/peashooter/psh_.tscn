@@ -1,0 +1,142 @@
+[gd_scene load_steps=93 format=2]
+
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00024.png" type="Texture" id=1]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00001.png" type="Texture" id=2]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00002.png" type="Texture" id=3]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00006.png" type="Texture" id=4]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00005.png" type="Texture" id=5]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00008.png" type="Texture" id=6]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00010.png" type="Texture" id=7]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00007.png" type="Texture" id=8]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00003.png" type="Texture" id=9]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00009.png" type="Texture" id=10]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00011.png" type="Texture" id=11]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00013.png" type="Texture" id=12]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00014.png" type="Texture" id=13]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00015.png" type="Texture" id=14]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00016.png" type="Texture" id=15]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00017.png" type="Texture" id=16]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00018.png" type="Texture" id=17]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00019.png" type="Texture" id=18]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00020.png" type="Texture" id=19]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00022.png" type="Texture" id=20]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00012.png" type="Texture" id=21]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00021.png" type="Texture" id=22]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00023.png" type="Texture" id=23]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00004.png" type="Texture" id=24]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00030.png" type="Texture" id=25]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00025.png" type="Texture" id=26]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00027.png" type="Texture" id=27]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00028.png" type="Texture" id=28]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00026.png" type="Texture" id=29]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00029.png" type="Texture" id=30]
+[ext_resource path="res://scenes/peashooter/psh.gd" type="Script" id=31]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00037.png" type="Texture" id=32]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00038.png" type="Texture" id=33]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00002.png" type="Texture" id=34]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00009.png" type="Texture" id=35]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00020.png" type="Texture" id=36]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00034.png" type="Texture" id=37]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00035.png" type="Texture" id=38]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00011.png" type="Texture" id=39]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00038.png" type="Texture" id=40]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00039.png" type="Texture" id=41]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00030.png" type="Texture" id=42]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00015.png" type="Texture" id=43]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00043.png" type="Texture" id=44]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00028.png" type="Texture" id=45]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00037.png" type="Texture" id=46]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00023.png" type="Texture" id=47]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00044.png" type="Texture" id=48]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00043.png" type="Texture" id=49]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00040.png" type="Texture" id=50]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00032.png" type="Texture" id=51]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00042.png" type="Texture" id=52]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00041.png" type="Texture" id=53]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00001.png" type="Texture" id=54]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00004.png" type="Texture" id=55]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00022.png" type="Texture" id=56]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00017.png" type="Texture" id=57]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00026.png" type="Texture" id=58]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00027.png" type="Texture" id=59]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00025.png" type="Texture" id=60]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00040.png" type="Texture" id=61]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00042.png" type="Texture" id=62]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00044.png" type="Texture" id=63]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00005.png" type="Texture" id=64]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00003.png" type="Texture" id=65]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00010.png" type="Texture" id=66]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00013.png" type="Texture" id=67]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00014.png" type="Texture" id=68]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00024.png" type="Texture" id=69]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00006.png" type="Texture" id=70]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00007.png" type="Texture" id=71]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00036.png" type="Texture" id=72]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00033.png" type="Texture" id=73]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00018.png" type="Texture" id=74]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00041.png" type="Texture" id=75]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00016.png" type="Texture" id=76]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00021.png" type="Texture" id=77]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00012.png" type="Texture" id=78]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00019.png" type="Texture" id=79]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00029.png" type="Texture" id=80]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00031.png" type="Texture" id=81]
+[ext_resource path="res://resources/peashooter/shoot/pshooter1cshoot_00008.png" type="Texture" id=82]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00039.png" type="Texture" id=83]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00032.png" type="Texture" id=84]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00035.png" type="Texture" id=85]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00036.png" type="Texture" id=86]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00031.png" type="Texture" id=87]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00034.png" type="Texture" id=88]
+[ext_resource path="res://resources/peashooter/new_peashooter_std/pshooterstd_00033.png" type="Texture" id=89]
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 487, 10 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 54 ), ExtResource( 34 ), ExtResource( 65 ), ExtResource( 55 ), ExtResource( 64 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 82 ), ExtResource( 35 ), ExtResource( 66 ), ExtResource( 39 ), ExtResource( 78 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 43 ), ExtResource( 76 ), ExtResource( 57 ), ExtResource( 74 ), ExtResource( 79 ), ExtResource( 36 ), ExtResource( 77 ), ExtResource( 56 ), ExtResource( 47 ), ExtResource( 69 ), ExtResource( 60 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 45 ), ExtResource( 80 ), ExtResource( 42 ), ExtResource( 81 ), ExtResource( 51 ), ExtResource( 73 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 72 ), ExtResource( 32 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 61 ), ExtResource( 75 ), ExtResource( 52 ), ExtResource( 44 ), ExtResource( 48 ) ],
+"loop": true,
+"name": "shoot",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 9 ), ExtResource( 24 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 11 ), ExtResource( 21 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 22 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 1 ), ExtResource( 26 ), ExtResource( 29 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 25 ), ExtResource( 87 ), ExtResource( 84 ), ExtResource( 89 ), ExtResource( 88 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 46 ), ExtResource( 33 ), ExtResource( 83 ), ExtResource( 50 ), ExtResource( 53 ), ExtResource( 62 ), ExtResource( 49 ), ExtResource( 63 ) ],
+"loop": true,
+"name": "std",
+"speed": 30.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 8, 36.5 )
+
+[node name="peashooter" type="Node2D"]
+script = ExtResource( 31 )
+
+[node name="foeCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="foeCollision"]
+position = Vector2( 566, -101 )
+shape = SubResource( 3 )
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2( 110, -96 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -2, -112 )
+frames = SubResource( 1 )
+animation = "shoot"
+frame = 8
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="TargetCheck" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="eatCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="eatCollision" groups=["plantcol"]]
+position = Vector2( -2, -57 )
+shape = SubResource( 2 )
+
+[connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]
+[connection signal="timeout" from="TargetCheck" to="." method="_on_TargetCheck_timeout"]

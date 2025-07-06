@@ -53,18 +53,11 @@ func _process(delta):
 #	pass
 
 
-func _on_AnimatedSprite_animation_finished():
-	shot = false
-	if state == "shooting":
-		$AnimatedSprite2D.play("shoot")
-	elif state == "idle":
-		$AnimatedSprite2D.play("std")
-	pass # Replace with function body.
-
-
 func target_check():
 	pass
 
+func damage():
+	modulate.a = 0.5
 
 
 
@@ -76,7 +69,14 @@ func _on_TargetCheck_timeout():
 			break
 		else:
 			state = "idle"
+
+
+func _on_AnimatedSprite_animation_finished():
+	shot = false
+	if state == "shooting":
+		$AnimatedSprite2D.play("shoot")
+	elif state == "idle":
+		$AnimatedSprite2D.play("std")
 	pass # Replace with function body.
 
-func damage():
-	modulate.a = 0.5
+	pass # Replace with function body.

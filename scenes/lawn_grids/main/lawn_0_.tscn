@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/lawn_grids/lawn_grid_1_.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/lawn_grids/controller.gd" type="Script" id=2]
 [ext_resource path="res://scenes/lawn_grids/spawn_controller.gd" type="Script" id=3]
 [ext_resource path="res://scenes/lawn_grids/main/z_timeline.gd" type="Script" id=4]
 [ext_resource path="res://PvZ2_Backyard01.png" type="Texture" id=5]
+[ext_resource path="res://scenes/lawn_grids/main/seed_planter_.tscn" type="PackedScene" id=6]
 
 [node name="lawn_0_" type="Node2D"]
 script = ExtResource( 2 )
@@ -26,18 +27,14 @@ texture = ExtResource( 5 )
 stretch_mode = 1
 
 [node name="lawn_grid_1_" parent="." instance=ExtResource( 1 )]
+position = Vector2( 158, 100 )
+scale = Vector2( 0.839999, 1 )
 
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="(depecrated) lanephy" type="StaticBody2D" parent="."]
 
-[node name="Control" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
-margin_right = 40.0
-margin_bottom = 40.0
+[node name="seed_planter_" parent="." instance=ExtResource( 6 )]
 
 [node name="spawn1" type="Node2D" parent="."]
 position = Vector2( 1263, 209 )
