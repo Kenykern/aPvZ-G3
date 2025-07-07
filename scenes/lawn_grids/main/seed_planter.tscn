@@ -19,6 +19,7 @@ custom_constants/separation = 20
 [node name="SeedPacket" parent="HBoxContainer" instance=ExtResource( 2 )]
 margin_right = 84.0
 margin_bottom = 50.0
+seedpacket = "sunflower"
 
 [node name="SeedPacket2" parent="HBoxContainer" instance=ExtResource( 2 )]
 margin_left = 104.0

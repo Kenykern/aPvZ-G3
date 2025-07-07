@@ -22,6 +22,11 @@ func _process(delta):
 
 
 func _on_SeedPacket_toggled(button_pressed):
+	if StatList.holding_plant == true:
+		disabled = true
+	else:
+		disabled = false
+		
 	if button_pressed:
 		StatList.holding_plant = true
 		StatList.seedpacket_id = get_instance_id()

@@ -8,7 +8,6 @@ var showLabel = false
 onready var set_packet = StatList.plants[get_parent().get_parent().seedpacket]
 
 func _ready():
-	raise()
 	$PlantName.set_text(set_packet["name"])
 	$SunCost.set_text("Cost: " + set_packet["suncost"])
 	modulate.a = 0

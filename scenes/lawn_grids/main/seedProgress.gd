@@ -21,12 +21,14 @@ func _process(delta):
 	
 	update()
 	value -= delta
-	if value != 0:
+	if value != 0 or StatList.holding_plant == true:
 		get_parent().disabled = true
 		get_parent().mouse_default_cursor_shape = Control.CURSOR_ARROW
-		$"../AnimatedSprite".stop()
+		if get_parent().pressed:
+			$"../AnimatedSprite".stop()
 	else:
-		get_parent().disabled = false
-		get_parent().mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
-		if !$"../AnimatedSprite".is_playing():
-			$"../AnimatedSprite".play()
+		if StatList.holding_plant == false:
+			get_parent().disabled = false
+			get_parent().mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+			if !$"../AnimatedSprite".is_playing():
+				$"../AnimatedSprite".play()

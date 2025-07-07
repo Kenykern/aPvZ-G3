@@ -20,31 +20,32 @@ func _ready():
 	$AnimationPlayer.play("popup")
 	$foeCollision.collision_layer = 10
 	$foeCollision.collision_mask = 10
+	$AnimatedSprite.play("std")
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	var currAnim = $AnimatedSprite2D.get_animation()
+	var currAnim = $AnimatedSprite.get_animation()
 	
 	if Input.is_action_just_pressed("ui_accept") and state == "idle":
 		state = "shooting"
 	elif Input.is_action_just_pressed("ui_accept") and state == "shooting":
 		state = "idle"
 		
-	if currAnim == "shoot" and $AnimatedSprite2D.get_frame() == 38 and shot == false:
+	if currAnim == "shoot" and $AnimatedSprite.get_frame() == 38 and shot == false:
 		shot = true
-		var cPea = pea.instantiate()
+		var cPea = pea.instance()
 		cPea.lane = lane
 		cPea.global_position = $Node2D.global_position + Vector2(0,160)
 		get_parent().add_child(cPea)
 		
 		
 
-		$CPUParticles2D.modulate.a = 1
+	#	$CPUParticles2D.modulate.a = 1
 		
-	if $CPUParticles2D.modulate.a != 0:
-		$CPUParticles2D.modulate.a -= 0.09
+	#if $CPUParticles2D.modulate.a != 0:
+	#	$CPUParticles2D.modulate.a -= 0.09
 	if health <= 0: queue_free()
 	if modulate.a < 1: modulate.a += 0.05
 #	print(foeCol.get_overlapping_bodies())
@@ -74,9 +75,9 @@ func _on_TargetCheck_timeout():
 func _on_AnimatedSprite_animation_finished():
 	shot = false
 	if state == "shooting":
-		$AnimatedSprite2D.play("shoot")
+		$AnimatedSprite.play("shoot")
 	elif state == "idle":
-		$AnimatedSprite2D.play("std")
+		$AnimatedSprite.play("std")
 	pass # Replace with function body.
 
 	pass # Replace with function body.

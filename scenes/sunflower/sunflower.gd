@@ -4,6 +4,7 @@ var lane
 var gr
 func _ready():
 	$AnimationPlayer.play("popup")
+	$AnimatedSprite.play("std")
 	pass
 	
 func _process(delta):
@@ -15,7 +16,7 @@ func _process(delta):
 
 func _on_AnimatedSprite_animation_finished():
 	if sun == true:
-		$AnimatedSprite2D.set_animation("sun")
+		$AnimatedSprite.set_animation("sun")
 	else:
-		$AnimatedSprite2D.set_animation("std")
+		$AnimatedSprite.set_animation("std")
 	pass # Replace with function body.

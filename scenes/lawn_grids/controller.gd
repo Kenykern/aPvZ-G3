@@ -33,13 +33,15 @@ func _hl_instance_id():
 	
 func _input(event):
 	if $lawn_grid_1_.currHL != null:
-		if Input.is_mouse_button_pressed(1) and instance_from_id($lawn_grid_1_.currHL).mouseArea == true and StatList.holding_plant == true and instance_from_id($lawn_grid_1_.currHL).available == true and instance_from_id(StatList.seedpacket_id).button_pressed == true:
+		if Input.is_mouse_button_pressed(1) and instance_from_id($lawn_grid_1_.currHL).mouseArea == true and StatList.holding_plant == true and instance_from_id($lawn_grid_1_.currHL).available == true and instance_from_id(StatList.seedpacket_id).pressed == true:
 				#var plant_path = StatList.plants[instance_from_id(StatList.seedpacket_id).seedpacket]["path"]
 				var plant = load(StatList.plants[instance_from_id(StatList.seedpacket_id).seedpacket]["path"])
+				print(plant)
 				#var plant = load(strp)
 				var ap = plant.instance()
+				print(ap)
 				var pposition =  instance_from_id($lawn_grid_1_.currHL).get_node("plant_position").global_position
-				$Ysort.add_child(ap)
+				get_node("YSort").add_child(ap)
 				ap.lane = instance_from_id($lawn_grid_1_.currHL).lane
 				print(ap.lane)
 				ap.position = pposition
@@ -67,5 +69,6 @@ func _input(event):
 						ap.lane = 5
 				StatList.holding_plant = false
 				instance_from_id($lawn_grid_1_.currHL).available = false
+				instance_from_id(StatList.seedpacket_id).pressed = false
 				instance_from_id(StatList.seedpacket_id).seedPacket_reset()
 			
