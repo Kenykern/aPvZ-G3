@@ -13,7 +13,7 @@ func _on_ready():
 func _process(delta):
 	if Input.is_mouse_button_pressed(2):
 		pressed = false
-		
+		StatList.holding_plant = false
 	if is_pressed():
 		if StatList.seedpacket_id != get_instance_id():
 			pass

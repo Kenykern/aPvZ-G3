@@ -11,6 +11,7 @@ var planteat
 
 
 func _ready():
+	$an_zombie.modulate.a = 1
 #	$head_phs.modulate.a = 0
 #	$head_phs2.modulate.a = 0
 	
@@ -24,6 +25,8 @@ func _ready():
 	pass
 	
 func _process(delta):
+
+	print($Timer.time_left)
 	if curr_health <= (health / 2) and state == "healthy":
 		var currFrame = $an_zombie.get_frame()
 		$an_zombie.set_animation("walk_noarm")
@@ -34,7 +37,7 @@ func _process(delta):
 		darm.pgp = global_position
 		#$head_phs2.pop_off()
 		state = "hurt"
-		
+	
 	if curr_health <= 0 and state == "hurt":
 		var currFrame = $an_zombie.get_frame()
 		$an_zombie.set_animation("walk_nohead")
@@ -47,9 +50,7 @@ func _process(delta):
 		$hitArea.queue_free()
 		state = "dead"
 		
-		if $an_zombie.animation == "death":
-			if $an_zombie.get_frame() == 24:
-				$an_zombie.stop()
+
 		
 #	if $an_zombie.is_playing("walk_nohead") and state == "dead":
 #		$an_zombie.animation_finished
@@ -72,11 +73,13 @@ func _process(delta):
 	elif $an_zombie.get_frame() >= 137 and $an_zombie.get_frame() <= 183:
 		global_position.x -= 0.5
 		
-	if fading == true:
-		modulate.a -= 0.05
+#	if fading == true:
+#		print("alive")
+#		modulate.a -= 0.05
+#		print(modulate.a)
 		
-	if modulate.a < 0:
-		queue_free()
+#	if modulate.a < 0:
+#		queue_free()
 
 
 func arm_down():
@@ -85,6 +88,25 @@ func arm_down():
 func _hit(damage):
 	$damage_flash.play("damage_flash")
 	curr_health -= damage
+	if curr_health <= 0 and state != "dead":
+		die()
+
+func die():
+	state = "dead"
+	$hitArea.queue_free()
+	yield($an_zombie, "animation_finished")
+	# 3) Ahora que acabó, lanzás “death”
+	$an_zombie.play("death")
+	# 4) (Opcional) Esperás de nuevo y liberás el nodo
+	yield($an_zombie, "animation_finished")
+	queue_free()
+	$Timer.one_shot = true
+	$Timer.start()    # Solo aquí
+
+#func _on_an_zombie_animation_finished():
+#    if state == "dead" and $an_zombie.animation == "death":
+#        # Ya estamos en muerte, pero NO reiniciamos el Timer
+#        return
 
 
 
@@ -92,12 +114,18 @@ func _on_an_zombie_animation_finished():
 	if state == "dead":
 		$an_zombie.set_animation("death")
 		$an_zombie.play()
-		$fadeTimer.start()
+	if $an_zombie.animation == "death":
+			get_node("Timer").start()
+#	if $an_zombie.animation == "death":
+#		$Timer.start(3)
+		
+	
+	
 	pass # Replace with function body.
 
 
 func _on_fadeTimer_timeout():
-	fading = true
+	$damage_flash.play("fade")
 	pass # Replace with function body.
 
 
@@ -131,10 +159,17 @@ func _on_EatTimer_timeout():
 		$EatTimer.start(1)
 	pass # Replace with function body.
 	
-	""""
-func _loc_await(time):
-	await get_tree().create_timer(time).timeout
-	$an_zombie.play()
-	eating = false
-		
-"""
+
+
+
+func _on_damage_flash_animation_finished(anim_name):
+#	if anim_name == "fade":
+#		queue_free()
+	#fading = true
+	pass # Replace with function body.
+
+
+func _on_Timer_timeout():
+	$damage_flash.play("fade")
+	print("DO SOMETHINGH")
+	pass # Replace with function body.

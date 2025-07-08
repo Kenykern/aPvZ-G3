@@ -1,4 +1,4 @@
-[gd_scene load_steps=667 format=2]
+[gd_scene load_steps=670 format=2]
 
 [ext_resource path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00054.png" type="Texture" id=1]
 [ext_resource path="res://resources/enemies/zombie/zombie_walk/zombie_walkver2_00036.png" type="Texture" id=2]
@@ -662,10 +662,10 @@
 [ext_resource path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00184.png" type="Texture" id=660]
 [ext_resource path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00207.png" type="Texture" id=661]
 [ext_resource path="res://resources/enemies/zombie/zombie_walk_nohead/zombie_walkver2_00208.png" type="Texture" id=662]
-[ext_resource path="res://scenes/enemies/zombie/zombie.gd" type="Script" id=663]
+[ext_resource path="res://scenes/enemies/zombie/zombiev2.gd" type="Script" id=663]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 14, 64.5 )
+extents = Vector2( 14, 83.8333 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -690,6 +690,40 @@ animations = [ {
 "speed": 30.0
 } ]
 
+[sub_resource type="Animation" id=4]
+length = 0.001
+
+[sub_resource type="Animation" id=5]
+resource_name = "damage_flash"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath("an_zombie:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.013855, 0.0997684 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 2,
+"values": [ Color( 1, 1, 1, 1 ), Color( 2.31, 1.17, 2.31, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "fade"
+tracks/0/type = "value"
+tracks/0/path = NodePath("an_zombie:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 10.5, 36 )
 
@@ -700,7 +734,7 @@ script = ExtResource( 663 )
 [node name="hitArea" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hitArea"]
-position = Vector2( -8, -108.5 )
+position = Vector2( -8, -127.833 )
 shape = SubResource( 1 )
 
 [node name="an_zombie" type="AnimatedSprite" parent="."]
@@ -713,6 +747,9 @@ frame = 1
 position = Vector2( -48, -222 )
 
 [node name="damage_flash" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 4 )
+anims/damage_flash = SubResource( 5 )
+anims/fade = SubResource( 6 )
 
 [node name="fadeTimer" type="Timer" parent="."]
 wait_time = 3.0
@@ -729,8 +766,13 @@ position = Vector2( -19.417, -111.449 )
 position = Vector2( -70.5, -62 )
 shape = SubResource( 3 )
 
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
 [connection signal="animation_finished" from="an_zombie" to="." method="_on_an_zombie_animation_finished"]
+[connection signal="animation_finished" from="damage_flash" to="." method="_on_damage_flash_animation_finished"]
 [connection signal="timeout" from="fadeTimer" to="." method="_on_fadeTimer_timeout"]
 [connection signal="timeout" from="EatTimer" to="." method="_on_EatTimer_timeout"]
 [connection signal="area_entered" from="EatArea" to="." method="_on_EatArea_area_entered"]
 [connection signal="area_exited" from="EatArea" to="." method="_on_EatArea_area_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

@@ -76,7 +76,7 @@ func _on_colArea_area_entered(area):
 		#get_parent().get_parent().add_child($CPUParticles2D)
 		#get_node("/../..").add_child($CPUParticles2D)
 		#$CPUParticles2D.global_position = particlesGpos
-		$CPUParticles2D.emitting = true
+#		$CPUParticles2D.emitting = true
 		pass # Replace with function body.
 
 
